@@ -21,14 +21,14 @@ h1{
 
 #aboutme
 {
-	background-color : green;
+	background-color : #19FFD1;
 	opacity: 0.5;
 }
 
 #myskills
 {
-	background-color : red;
-	opacity: 0.7;
+	background-color : #FF6666;
+	opacity: 0.5;
 }
 
 #mywork
