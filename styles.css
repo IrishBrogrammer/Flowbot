@@ -39,3 +39,7 @@ body{
 	
 	background-color : #FF7489;
 }
+
+nav.navbar.navbar-default {
+  margin-bottom: 0px;
+}
