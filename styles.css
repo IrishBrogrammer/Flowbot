@@ -7,3 +7,13 @@ h1{
     height: 100px;
     background: #ccc;
   }
+
+
+  .navbar-header{
+  	color:pink;
+  }
+
+  .navbar-header li:hover{
+  	color:green;
+
+  }
