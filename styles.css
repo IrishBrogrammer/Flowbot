@@ -2,8 +2,9 @@ h1{
 	color:red;
 }
 
-.navbar-default .navbar-nav > li > a {
-    color: #777;
+.navbar-default
+{
+	position: fixed;
 }
 
 
@@ -18,18 +19,19 @@ h1{
 	width : 100%;	
 }
 
-#one
+#aboutme
 {
-	background-color : red;
+	background-color : green;
 	opacity: 0.5;
 }
 
-#two
+#myskills
 {
-	background-color : blue;
+	background-color : red;
+	opacity: 0.7;
 }
 
-#three
+#mywork
 {
 	background-color : black;
 }
