@@ -21,6 +21,7 @@ h1{
 #one
 {
 	background-color : red;
+	opacity: 0.5;
 }
 
 #two
