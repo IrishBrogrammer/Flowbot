@@ -1,18 +1,7 @@
-
-
-.navbar-default
-{
-	position: fixed;
-}
-
-
 body{
 	background-color:#F1F6F6;
 	opacity:0.7;
 }
-
-
-
 
 .block
 {
@@ -29,9 +18,7 @@ body{
 
 #myskills
 {
-	
-	background-color : #FF7489;
-	
+	background-color : #FF7489;	
 }
 
 #mywork
@@ -46,4 +33,9 @@ nav.navbar.navbar-default {
   position: fixed;
   z-index: 2;
   width : 100%;
+}
+
+#myName
+{
+	float: left;
 }
