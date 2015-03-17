@@ -9,12 +9,8 @@ h1{
   }
 
 
-  .navbar-default {
-  	color:pink;
-  }
 
 
-  .navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-    color: green;
+.navbar-default .navbar-nav > li > a {
+    color: #777;
 }
