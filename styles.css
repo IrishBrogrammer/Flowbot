@@ -31,7 +31,7 @@ body{
 	width  : 8%;
 	background-color : #FF8F49;  
   	z-index: 15;
-  	animation-name: example;
+  	animation-name: fadeInSkill;
   	animation-duration: 4s;
 }
 
