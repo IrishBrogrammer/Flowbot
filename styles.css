@@ -31,6 +31,8 @@ body{
 	width  : 8%;
 	background-color : #FF8F49;  
   	z-index: 15;
+  	-webkit-animation-name: fadeInSkill; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
   	animation-name: fadeInSkill;
   	animation-duration: 4s;
 }
