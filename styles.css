@@ -6,12 +6,12 @@ body{
 
 .progressbar
 {
-	height : 30px;
-	width  : 100px;
+	height : 5%;
+	width  : 10%;
 	background-color : white;  
 	position: absolute;
   	margin-top: 10%;
-  	margin-left: 38%;
+  	margin-left: 10%;
   	z-index: 10;
 }
 
