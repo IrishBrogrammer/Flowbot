@@ -4,17 +4,30 @@ body{
 }
 
 
-.progressbar
+
+.bar
 {
 	height : 5%;
 	width  : 15%;
-	background-color : white;  
 	position: absolute;
   	margin-top: 10%;
   	margin-left: 18%;
+
+}
+
+#progressbar
+{
+	width  : 15%;
+	background-color : white;  
   	z-index: 10;
 }
 
+#progressbarfilling
+{
+	width  : 8%;
+	background-color : black;  
+  	z-index: 15;
+}
 
 
 .block
