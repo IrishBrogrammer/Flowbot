@@ -8,11 +8,9 @@ body{
 .bar
 {
 	height : 5%;
-	width  : 15%;
 	position: absolute;
   	margin-top: 10%;
   	margin-left: 18%;
-
 }
 
 #progressbar
