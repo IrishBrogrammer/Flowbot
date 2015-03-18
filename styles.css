@@ -3,6 +3,16 @@ body{
 	opacity:0.7;
 }
 
+
+.progressbar
+{
+	height : 30px;
+	width  : 100px;
+	color  : white;  
+}
+
+
+
 .block
 {
 
