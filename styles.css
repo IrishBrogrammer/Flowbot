@@ -20,11 +20,19 @@ body{
   	z-index: 10;
 }
 
+@keyframes fadeInSkill 
+{
+    from {width:  0%;}
+    to {width: 8%;}
+}
+
 #progressbarfilling
 {
 	width  : 8%;
 	background-color : #FF8F49;  
   	z-index: 15;
+  	animation-name: example;
+  	animation-duration: 4s;
 }
 
 
