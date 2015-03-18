@@ -23,7 +23,7 @@ body{
 #progressbarfilling
 {
 	width  : 8%;
-	background-color : black;  
+	background-color : #FF8F49;  
   	z-index: 15;
 }
 
