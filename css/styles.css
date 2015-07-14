@@ -73,7 +73,7 @@ body{
 
 #contact
 {
-	background-color: ##3F51B5;
+	background-color: #3F51B5;
 	position: relative;
 	color : #FFFFFF;
 }
@@ -88,21 +88,22 @@ body{
 #contact-tagline
 {
 	position: absolute;
-	margin-left : 40%;
-	margin-top:  8%;
+  	margin-left: 40%;
+  	margin-top: 10%;
+  	font-size: 18px;
 }
 
 #emailblock
 {
-	background-color: white;
+	background-color: #607D8B;
 	border: 1px solid black;
 	position: absolute;
 	margin-left:  25%;
 	margin-top: 15%;
 	width: 50%;
 	height:  50px;
-
 }
+
 
 
 
