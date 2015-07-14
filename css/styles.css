@@ -80,7 +80,7 @@ body{
 
 #contact h1
 {
-	margin-left: 45%;
+	margin-left: 44%;
 	margin-top:  5%;
 	position: absolute;
 }
@@ -97,9 +97,9 @@ body{
 	background-color: white;
 	border: 1px solid black;
 	position: absolute;
-	margin-left:  45%;
+	margin-left:  25%;
 	margin-top: 15%;
-	width: 200px;
+	width: 50%;
 	height:  50px;
 
 }
