@@ -76,6 +76,13 @@ body{
 	background-color:  : #607D8B;
 }
 
+#emailblock
+{
+	background: white;
+	border: 1px solid black;
+}
+
+
 
 nav.navbar.navbar-default {
   position: fixed;
