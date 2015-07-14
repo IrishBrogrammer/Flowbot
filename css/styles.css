@@ -69,8 +69,13 @@ body{
 	
 	background-color :#2E82FF;
 	opacity:0.9;
-
 }
+
+#contact
+{
+	background-color:  : #607D8B;
+}
+
 
 nav.navbar.navbar-default {
   position: fixed;
