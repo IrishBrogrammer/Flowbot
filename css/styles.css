@@ -98,16 +98,16 @@ body{
 	background-color: #607D8B;
 	border: 1px solid black;
 	position: absolute;
-	margin-left:  25%;
-	margin-top: 15%;
-	width: 50%;
+	margin-left:  30%;
+	margin-top: 13%;
+	width: 40%;
 	height:  50px;
 }
 
 #emailAddress
 {
-	font-size: 15px;
-	margin-left: 40%;
+	font-size: 32px;
+	margin-left: 17%;
 }
 
 nav.navbar.navbar-default {
