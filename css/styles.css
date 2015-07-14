@@ -74,6 +74,7 @@ body{
 #contact
 {
 	background-color: #607D8B;
+	position: relative;
 }
 
 #contact h1
@@ -81,6 +82,7 @@ body{
 	color : #212121;
 	margin-left: 45%;
 	margin-top:  10%;
+	position: absolute;
 }
 
 
