@@ -104,8 +104,11 @@ body{
 	height:  50px;
 }
 
-
-
+#emailAddress
+{
+	font-size: 15px;
+	margin-left: 40%;
+}
 
 nav.navbar.navbar-default {
   position: fixed;
