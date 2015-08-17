@@ -5,6 +5,20 @@ body{
 	height: 100%;
 }
 
+/* Line that appears above or below each button */
+.buttonline
+{
+	height: 50px;
+	width: 100%;
+}
+
+#cancelline
+{
+	color: red;
+}
+
+
+
 
 /* Bar along the top of each page */
 #topbar
@@ -14,6 +28,17 @@ body{
 	height: 20%;
 	background-color: black;
 }
+
+/* Cancel button in navbar */
+#cancelbutton
+{
+	width: 5%;
+	height: 50%;
+	background-color: grey;
+}
+
+
+
 
 #pagecontent
 {
