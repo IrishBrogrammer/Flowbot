@@ -34,22 +34,22 @@ body{
 	background-color: black;
 	text-align: center;
 	height : 100%;
-	width: 24%;
+	width: 24.5%;
 }
 
 #tncbutton
 {
-	margin-left: 2%;
+	margin-left: 0.5%;
 }
 
 #instructionsbutton
 {
-	margin-left : 2%;
+	margin-left : 0.5%;
 }
 
 #assistbutton
 {
-	margin-left: 2%;
+	margin-left: 0.5%;
 }
 
 
