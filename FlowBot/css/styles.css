@@ -1,6 +1,7 @@
 body{
 	background-color: grey;
 	opacity:0.7;
+	color: white;
 }
 
 
@@ -13,10 +14,14 @@ body{
 }
 
 
-#carouselbutton
+#carousel
+{
+	margin-top: 90%;
+}
+
+.carouselbutton
 {
 	background-color: black;
-	color: white;
 	text-align: center;
 	height : 10%;
 	width: 20%;
