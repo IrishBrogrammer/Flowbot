@@ -34,7 +34,24 @@ body{
 	background-color: black;
 	text-align: center;
 	height : 100%;
-	width: 20%;
-	margin-left: 4%;
+	width: 24%;
 }
+
+#tncbutton
+{
+	margin-left: 2%;
+}
+
+#instructionsbutton
+{
+	margin-left : 2%;
+}
+
+#assistbutton
+{
+	margin-left: 2%;
+}
+
+
+
 
