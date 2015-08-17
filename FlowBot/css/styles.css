@@ -32,9 +32,13 @@ body{
 /* Cancel button in navbar */
 #cancelbutton
 {
-	width: 5%;
+	float: left;
+	width: 7.5%;
 	height: 50%;
+	text-align: center;
 	background-color: grey;
+	margin-top: 1%;
+	margin-left: 1%;
 }
 
 
