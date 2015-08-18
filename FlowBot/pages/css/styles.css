@@ -34,6 +34,13 @@ body{
     margin-top: -6.5%;	
 }
 
+#errortext
+{
+	font-size: 60px;
+    font-family: BebasNeue;
+    margin-left: 35%;
+    margin-top: 14%;
+}
 
 #assistancetitle
 {
@@ -48,14 +55,18 @@ body{
     font-size: 25px;
 }
 
-
-#errortext
+#thankstitle
 {
-	font-size: 60px;
-    font-family: BebasNeue;
-    margin-left: 35%;
-    margin-top: 14%;
+
 }
+
+#thankstext
+{
+	
+}
+
+
+
 
 
 /* Line that appears above or below each button */
@@ -135,3 +146,13 @@ body{
 {
 	margin-left: 0.5%;
 }
+
+
+.contentbox
+{
+	font-family: "BebasNeue";
+	color: white;
+	background-color: #212121;
+}
+
+
