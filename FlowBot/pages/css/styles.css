@@ -161,6 +161,16 @@ body{
 	font-size : xx-large;
 }
 
+
+#optionsbar
+{
+	background-color: red;
+	height: 15%;
+	width :80%;	
+}
+
+
+
 #tncbutton
 {
 	margin-left: 0.5%;
