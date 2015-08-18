@@ -20,11 +20,18 @@ body{
 }
 
 
-#PageTitle
+.PageTitle
 {
 	font-family: "BebasNeue";
+	color: white;
+	font-size: 70;
 }
 	
+
+#errortitle
+{
+	
+}
 
 
 /* Line that appears above or below each button */
