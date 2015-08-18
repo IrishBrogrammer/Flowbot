@@ -57,12 +57,15 @@ body{
 
 #thankstitle
 {
-
+	margin-left: 13%;
+    margin-top: -6.5%;
 }
 
 #thankstext
 {
-	
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10%;
 }
 
 
@@ -155,4 +158,11 @@ body{
 	background-color: #212121;
 }
 
-
+#nextcustomerbutton
+{
+	width: 20%;
+    height: 15%;
+    margin-left: 40%;
+    font-size: 35px;
+    text-align: center;
+}
