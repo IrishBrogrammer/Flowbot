@@ -7,13 +7,13 @@ body{
 
 
 /* Load fonts used in page */
-@fontface
+@font-face
 {
 	font-family: 'BebasNeue';
 	src: url("../fonts/BebasNeue.otf") format("opentype");
 }
 
-@fontface
+@font-face
 {
 	font-family: 'Airship';
 	src: url("airship.ttf") format("truetype");
