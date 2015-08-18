@@ -16,7 +16,7 @@ body{
 @fontface
 {
 	font-family: 'Airship';
-	src: url("../fonts/Airship27-Regular.ttf") format("truetype");
+	src: url("fonts/Airship27-Regular.ttf") format("truetype");
 }
 
 
