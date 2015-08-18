@@ -30,7 +30,16 @@ body{
 
 #errortitle
 {
-	
+	margin-left: 35%;
+    margin-top: -6.5%;	
+}
+
+#errortext
+{
+	font-size: 60px;
+    font-family: BebasNeue;
+    margin-left: 35%;
+    margin-top: 14%;
 }
 
 
