@@ -61,7 +61,7 @@ body{
 	background-color: #303030;
 	margin-top: 1%;
 	margin-left: 1%;
-	font-family: "Airship" , Fallback , sans-serif;
+	font-family: "BebasNeue" , Fallback , sans-serif;
 
 }
 
@@ -86,7 +86,7 @@ body{
 	text-align: center;
 	height : 100%;
 	width: 24.5%;
-	font-family: "Airship";
+	font-family: "BebasNeue";
 	font-size : xx-large;
 }
 
