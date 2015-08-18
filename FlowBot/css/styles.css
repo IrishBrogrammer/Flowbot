@@ -13,11 +13,18 @@ body{
 	src: url("../fonts/BebasNeue.otf") format("opentype");
 }
 
-#PageTitle
+@fontface
 {
-	font-family: "BebasNeue" , Fallback , sans-serif;
+	font-family: 'Airship';
+	src: url("../fonts/Airship27-Regular.ttf") format("truetype");
 }
 
+
+#PageTitle
+{
+	font-family: "Airship" , Fallback , sans-serif;
+}
+	
 
 
 /* Line that appears above or below each button */
@@ -54,6 +61,8 @@ body{
 	background-color: grey;
 	margin-top: 1%;
 	margin-left: 1%;
+	font-family: "Airship" , Fallback , sans-serif;
+
 }
 
 #pagecontent
@@ -77,6 +86,7 @@ body{
 	text-align: center;
 	height : 100%;
 	width: 24.5%;
+	font-family: "Airship" , Fallback , sans-serif;
 }
 
 #tncbutton
