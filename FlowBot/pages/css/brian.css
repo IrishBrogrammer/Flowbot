@@ -250,7 +250,7 @@
     border-top: 400px solid #ffea70;
     border-left: 60px solid transparent;
     border-right: 60px solid transparent;
-    margin-left: 37%;
+    margin-left: 0%;
     margin-top: 3%;
     float: left;
     width: 200px;
@@ -318,11 +318,19 @@
     height: 5%;
     width: 68%;
     margin-top: 100%;
-    margin-left: 85%;
+    margin-left: 73%;
     font-size: 42px;
     font-family: "BebasNeue";
     float: left;
 }
+
+#measurer
+{
+        width: 40%;
+    height: 88%;
+    float: left;
+}
+
 
 #measurerline
 {
