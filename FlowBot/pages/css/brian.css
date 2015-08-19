@@ -337,3 +337,42 @@
     background-color: #212121;
 }
 
+#topline
+{
+    height: 5px;
+    width: 6%;
+    background-color: #212121;
+    float: left;
+    margin-left: 83%;
+    margin-top: 8%;
+}
+
+#verticalline
+{
+    width: 1%;
+    height: 91%;
+    margin-left: 89%;
+    margin-top: -1%;
+    background-color: #212121;
+    float: left;
+}
+
+#midline
+{    
+    height: 5px;
+    width: 6%;
+    background-color: #212121;
+    float: left;
+    margin-left: -6.25%;
+    margin-top: 11%;
+}
+
+#bottomline
+{
+    background-color: #212121;
+    width: 6%;
+    height: 5px;
+    float: left;
+    margin-top: 72.5%;
+    margin-left: -6.25%;
+}
