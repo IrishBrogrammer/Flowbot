@@ -478,24 +478,34 @@ body{
     float: left;
     margin-left: 16%;
     margin-top: 3%;
-    background-color: red;
+    
 }
 
 #instructionsBox1{
-    float:left;
-    height:100%;
-    width:30%;
-    background-color:blue;
+   float: left;
+    height: 100%;
+    width: 32%;
+    background-color: black;
 }
 #instructionsBox2{
-    float:left;
-    height:100%;
-    width:30%;
-    background-color:green;
+    float: left;
+    height: 100%;
+    width: 33%;
+    background-color: black;
+    margin-left: 1%;
 }
 #instructionsBox3{
-    float:left;
-    height:100%;
-    width:30%;
-    background-color:yellow;
+    float: left;
+    height: 100%;
+    width: 33%;
+    background-color: black;
+    margin-left: 1%;
+}
+
+#instructionsContentUnderline{
+    width: 74%;
+    height: 5%;
+    float: left;
+    margin-left: 16%;
+    margin-top: 1%;
 }
