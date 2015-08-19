@@ -473,8 +473,10 @@ body{
 }
 
 #instructions-content-box{
-    width:70%;
-    height:10%;
-    float:left;
-    margin-left:5%;
+    width: 75%;
+    height: 44%;
+    float: left;
+    margin-left: 16%;
+    margin-top: 3%;
+    background-color: red;
 }
