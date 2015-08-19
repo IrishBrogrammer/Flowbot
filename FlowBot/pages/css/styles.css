@@ -3,6 +3,7 @@ body{
 	opacity:0.7;
 	color: white;
 	height: 100%;
+    font-family:'BebasNeue';
 }
 
 
@@ -477,8 +478,6 @@ body{
     height: 44%;
     float: left;
     margin-left: 16%;
-    margin-top: 3%;
-    
 }
 
 #instructionsBox1{
@@ -515,7 +514,7 @@ body{
      width: 33%;
     height: 3%;
     float: left;
-    margin-left: 16%;
+    margin-left: 1%;
     margin-bottom: 1%;
     background-color:yellow;
 }
@@ -530,7 +529,7 @@ body{
 }
 
 #instructionsBox3TopLine{
-     width: 33%;
+     width: 32%;
     height: 3%;
     float: left;
     margin-left: 1%;
@@ -540,4 +539,7 @@ body{
 
 #toplinesContainer{
     width:75%;
+    margin-left: 16%;
+    margin-top: 3%;
+    float : left;
 }
