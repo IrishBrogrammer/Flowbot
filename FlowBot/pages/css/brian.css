@@ -115,16 +115,41 @@
 
 #amounttransactionline
 {
-
+    background-color: red;
+    width: 20%;
+    margin-left: 41%;
+    margin-top: 7%;
+    height: 2%;
 }
 
 #amountbutton
 {
+    height: 25%;
+    width: 20%;
+    margin-left: 41%;
+    margin-top: 8px;
+    float: left;
 }
+
+#amountbutton p
+{
+    font-size: 40px;
+    width: 64%;
+    height: 50%;
+    margin-left: 31%;
+    margin-top: 4%;
+    float: left;
+}
+
 
 #amountentery
 {
-    
+    height: 31%;
+    width: 95%;
+    background-color: white;
+    margin-left: 2.5%;
+    float: left;
+    margin-top: -16%;
 }
 
 
