@@ -296,5 +296,15 @@ body{
 }
 
 
+#declinereceiptbutton
+{
+	width: 20%;
+    height: 30%;
+    margin-left: 42%;
+    margin-top: 158px;
+    font-size: 35px;
+    text-align: center;
+}
+
 
 
