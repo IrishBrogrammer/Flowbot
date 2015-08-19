@@ -306,5 +306,18 @@ body{
     text-align: center;
 }
 
+/*Confirm page*/
+#confirmPageTitle h1 {
+    font-size: 81%;
+    text-align: center;
+    margin-top: 1%;
+}
 
+#confirmPageTitle h2 {
+    font-size: 34%;
+    margin-left: 30%;
+    width: 49%;
+    text-align: center;
+    margin-top: -2.5%;
+}
 
