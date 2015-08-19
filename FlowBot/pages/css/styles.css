@@ -411,6 +411,8 @@ body{
     width:300px;
     background-color:red;
     float:left;
+    margin-left: 24%;
+    margin-top: 7%;
 }
 
 #contactless{
@@ -418,12 +420,14 @@ body{
     width:300px;
     background-color:red;
     float:left;
+    margin-left: 2%;
+    margin-top: 7%;
 }
 
-#card h1{
+#cardHeader{
     float:left;
 }
 
-#contactless h1{
+#contactHeader{
     float:left;
 }
