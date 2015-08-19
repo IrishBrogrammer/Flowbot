@@ -1,5 +1,29 @@
 #receiptbuttons
 {
-    width : 80%;
-    height: 30%;
+    width: 80%;
+    height: 40%;
+    margin-left: 10%;
+    margin-top: 8%;
+    float: left;
+}
+
+#confirmreceiptline
+{
+    width: 20%;
+    height: 2%;
+    margin-left: 20%;
+    margin-top: 11%;
+    font-size: 35px;
+    background-color: green;
+    text-align: center;
+    float: left;
+}
+
+#confirmreceiptbutton
+{
+    width: 30%;
+    height: 80%;
+    margin-left: 10%;
+    font-size: 35px;
+    text-align: center;
 }
