@@ -431,3 +431,15 @@ body{
 #contactHeader{
     float:left;
 }
+
+#PaymentPageTitle h1{
+    text-align: center;
+    font-size: 70px;
+    
+}
+
+#PaymentPageTitle h1{
+    text-align: center;
+    font-size: 34%;
+    
+}
