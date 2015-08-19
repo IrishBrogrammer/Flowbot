@@ -446,14 +446,29 @@ body{
     
 }
 
-#cardImage{
-    height:20%;
-    width:30%;
-    background-color:yellow;
+#cardImage {
+    height: 35%;
+    width: 43%;
+    background-color: #EDD74A;
+    text-align: auto;
+    margin-left: 26%;
+    margin-top: 23%;
 }
 
-#cardOne{
- width:100%;
- height:5%;
- background-color:#E3C666;
+#cardOne {
+    width: 100%;
+    height: 22%;
+    background-color: orange;
+    margin-top: 14%;
+    float: left;
+}
+
+#contactlessImage p{
+  font-size:80px;
+  color:yellow;
+}
+
+#contactPtwo{
+   font-size:100px;
+   color:yellow;
 }
