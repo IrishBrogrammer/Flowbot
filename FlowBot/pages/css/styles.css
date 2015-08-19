@@ -403,3 +403,27 @@ body{
     margin-left: -25%;   
     float : left;
 }
+
+/*Payment Page*/
+
+#card{
+    height:300px;
+    width:300px;
+    background-color:red;
+    float:left;
+}
+
+#contactless{
+    height:300px;
+    width:300px;
+    background-color:red;
+    float:left;
+}
+
+#card h1{
+    float:left;
+}
+
+#contactless h1{
+    float:left;
+}
