@@ -356,7 +356,31 @@ body{
 /*Refund page*/
 
 #refundPageTitle{
-    font-size: 81%;
     text-align: center;
-    margin-top: 1%;
+    font-size: 70px;
+    
+}
+
+#refundDetailsBox{
+    height: 210px;
+    width: 400px;
+    margin-left: 39%;
+    margin-top: 4%;
+    background-color:white;
+    float:left;
+}
+
+#Refundheader{
+    color: white;
+    font-size: 31px;
+    float: left;
+    margin-left: 41%;
+}
+
+#refundAmountBox{
+    height: 50px;
+    width: 400px;
+    background-color: white;
+    float: left;
+    margin-left: 39%
 }
