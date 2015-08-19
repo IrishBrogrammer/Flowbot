@@ -463,12 +463,20 @@ body{
     float: left;
 }
 
-#contactlessImage p{
-  font-size:80px;
-  color:yellow;
+/*Instructions page*/
+
+#instructionsPageTitle {
+    font-size: 45px;
+    margin-left: 19%;
+    margin-top: -2%;
+    float: left;
 }
 
-#contactPtwo{
-   font-size:100px;
-   color:yellow;
+#instructions-content-box{
+    width: 75%;
+    height: 44%;
+    float: left;
+    margin-left: 16%;
+    margin-top: 3%;
+    background-color: red;
 }
