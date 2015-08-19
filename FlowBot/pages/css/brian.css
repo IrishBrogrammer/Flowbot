@@ -436,11 +436,22 @@
 {
     width: 22%;
     float: left;
+    height: 8%;
+    margin-left: 38.45%;
+    margin-top: 11px;
+    background-color: white;
+}
+
+#keypad
+{
+    width: 22%;
+    float: left;
     height: 50%;
     margin-left: 38.45%;
     margin-top: 11px;
     background-color: #87878a;
 }
+
 
 #loginbutton
 {
