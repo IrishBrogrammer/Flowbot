@@ -463,12 +463,5 @@ body{
     float: left;
 }
 
-#contactlessImage p{
-  font-size:80px;
-  color:yellow;
-}
+/*Instructions page*/
 
-#contactPtwo{
-   font-size:100px;
-   color:yellow;
-}
