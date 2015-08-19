@@ -634,11 +634,18 @@ body{
 }
 
 #drink{
-    border-top: 200px solid #ffea70;
+    border-top: 80px solid yellow;
     border-left: 30px solid transparent;
-    border-right: 30px solid transparent;
-    margin-left: 0%;
-    margin-top: 3%;
+    border-right: 27px solid transparent;
+    margin-left: 28%;
+    margin-top: -7%;
     float: left;
-    width: 100px;
+    width: 61px;
+}
+
+#drink-bubble{
+    height:2px;
+    width:2px;
+    border-radius:90%;
+    background-color:black;
 }
