@@ -302,8 +302,15 @@ body{
     color: yellow;
 }
 
-#min-bar {
+.minMaxBar {
     width: 103.5%;
     height: 2%;
-    background-color: yellow;
+}
+
+#minBar{
+    background-color:yellow;
+}
+
+#maxBar{
+    background-color: red;
 }
