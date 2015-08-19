@@ -251,9 +251,56 @@
     border-left: 60px solid transparent;
     border-right: 60px solid transparent;
     margin-left: 37%;
-    margin-top: 6%;
+    margin-top: 3%;
     float: left;
     width: 200px;
 }
 
+#pourtitle h2
+{
+        font-size: 65px;
+    margin-left: 14%;
+    float: left;
+    height: 10%;
+    margin-top: 1%;
+}
 
+#pourtitle h1
+{
+    font-size: 45px;
+    float: left;
+    margin-left: 29%;
+    margin-top: 0%;
+    color: #ffea70;
+}
+
+#pourbuttonline
+{
+    width: 16%;
+    height: 7px;
+    margin-left: 80%;
+    margin-top: -45px;
+    font-size: 35px;
+    text-align: center;
+    float: left;
+}
+
+#pourbutton
+{
+    float: left;
+    width: 16%;
+    height: 15%;
+    margin-left: 80%;
+    margin-top: -2.5%;
+    background-color: #212121;
+}
+
+#pourbutton p
+{
+    width: 90%;
+    height: 30%;
+    font-size: 42px;
+    margin-left: 7%;
+    float: left;
+    margin-top: 5%;
+}
