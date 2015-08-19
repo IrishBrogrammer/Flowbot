@@ -537,3 +537,7 @@ body{
     margin-bottom: 1%;
     background-color:red;
 }
+
+#toplinesContainer{
+    width:75%;
+}
