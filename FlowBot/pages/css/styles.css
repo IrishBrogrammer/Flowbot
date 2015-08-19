@@ -353,3 +353,10 @@ body{
     float : left;
 }
 
+/*Refund page*/
+
+#refundPageTitle{
+    font-size: 81%;
+    text-align: center;
+    margin-top: 1%;
+}
