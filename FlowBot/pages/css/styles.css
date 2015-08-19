@@ -274,26 +274,8 @@ body{
     float: left;
 }
 
-#confirmreceiptbutton
-{
-	width: 20%;
-    height: 30%;
-    margin-left: 20%;
-    margin-top: 158px;
-    font-size: 35px;
-    text-align: center;
-}
 
 
-#declinereceiptbutton
-{
-	width: 20%;
-    height: 30%;
-    margin-left: 42%;
-    margin-top: 158px;
-    font-size: 35px;
-    text-align: center;
-}
 
 /*Confirm page*/
 #confirmPageTitle h1 {

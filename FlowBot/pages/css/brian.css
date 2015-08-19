@@ -27,3 +27,12 @@
     font-size: 35px;
     text-align: center;
 }
+
+#declinereceiptbutton
+{
+    width: 30%;
+    height: 80%;
+    margin-left: 10%;
+    font-size: 35px;
+    text-align: center;
+}
