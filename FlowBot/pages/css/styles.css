@@ -4,6 +4,7 @@ body{
 	color: white;
 	height: 100%;
     font-family:'BebasNeue';
+    letter-spacing: 2px;
 }
 
 
@@ -545,6 +546,16 @@ body{
 }
 
 #instructions-content-box h1{
-    font-size:20px;
+    font-size:40px;
     text-align:center;
+}
+
+#steps{
+    float:left;
+    margin-left:16%;
+}
+
+#steps p{
+    font-size:20px;
+    font-family:'Airship';
 }
