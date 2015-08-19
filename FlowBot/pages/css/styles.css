@@ -503,9 +503,37 @@ body{
 }
 
 #instructionsContentUnderline{
-    width: 74%;
-    height: 5%;
+    width: 75%;
+    height: 3%;
     float: left;
     margin-left: 16%;
     margin-top: 1%;
+    background-color: yellow;
+}
+
+#instructionsBox1TopLine{
+     width: 33%;
+    height: 3%;
+    float: left;
+    margin-left: 16%;
+    margin-bottom: 1%;
+    background-color:yellow;
+}
+
+#instructionsBox2TopLine{
+     width: 33%;
+    height: 3%;
+    float: left;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    background-color:green;
+}
+
+#instructionsBox3TopLine{
+     width: 33%;
+    height: 3%;
+    float: left;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    background-color:red;
 }
