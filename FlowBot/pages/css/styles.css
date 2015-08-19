@@ -291,4 +291,19 @@ body{
     text-align: center;
     margin-top: -2.5%;
 }
+#confirmPageMinimum{
+   float: left;
+    text-align: center;
+    margin-left: 34%;
+    margin-top: 10%;
+}
 
+#confirmPageMinimum h2, h3 {
+    color: yellow;
+}
+
+#min-bar {
+    width: 103.5%;
+    height: 2%;
+    background-color: yellow;
+}
