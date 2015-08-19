@@ -509,9 +509,11 @@
 
 #language
 {
-    width: 10%;
-    height: 15%;
+    width: 7%;
+    height: 50%;
     float: left;
+    margin-left: 28%;
+    margin-top: -9%;
 }
 
 #languagedrop
