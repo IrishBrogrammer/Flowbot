@@ -216,11 +216,8 @@
 .bubble
 {
   display: block;
-  background: black;
+  background: white;
   border-radius: 50%;
-  height: 300px;
-  width: 300px;
-  margin: 0;
   float: left;
 }
 
