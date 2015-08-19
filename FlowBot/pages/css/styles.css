@@ -333,3 +333,11 @@ body{
 #confirmPageMaximum h3 {
     color: red;
 }
+
+#confirmButton {
+    width: 20%;
+    height: 25%;
+    font-size: 35px;
+    text-align: center;
+    float: left;
+}
