@@ -477,9 +477,10 @@
 
 .loginkey
 {
-    width: 32%;
+    width: 32.3%;
     height : 100%;
     color: white;
+    text-align: center;
     float: left;
     font-size: 20;
     border-right: solid#79797d;
