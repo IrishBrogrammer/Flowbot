@@ -221,7 +221,7 @@
   float: left;
 }
 
-#introbubbleone
+#bubbleone
 {
     height: 80px;
     width: 80px;
@@ -229,7 +229,7 @@
     margin-top: -305px;
 }
 
-#introbubbletwo
+#bubbletwo
 {
     height: 60px;
     width: 60px;
@@ -237,14 +237,23 @@
     margin-top: -227px;
 }
 
-#introbubblethree
+#bubblethree
 {
-    height: 50px;
+        height: 50px;
     width: 50px;
     margin-top: -126px;
     margin-left: 49px;
 }
 
-
+#pourglass
+{
+    border-top: 400px solid #ffea70;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    margin-left: 37%;
+    margin-top: 6%;
+    float: left;
+    width: 200px;
+}
 
 
