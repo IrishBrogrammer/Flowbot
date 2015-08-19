@@ -305,3 +305,27 @@
     float: left;
     margin-top: 5%;
 }
+
+#pourtotal
+{
+    float: left;
+    height: 1%;
+    width: 24%;
+}
+
+#pourtotal p
+{
+    height: 5%;
+    width: 68%;
+    margin-top: 100%;
+    margin-left: 85%;
+    font-size: 42px;
+    font-family: "BebasNeue";
+    float: left;
+}
+
+#measurerline
+{
+    background-color: #212121;
+}
+
