@@ -475,7 +475,7 @@ body{
 
 #instructions-content-box{
     width: 75%;
-    height: 44%;
+    height: 39%;
     float: left;
     margin-left: 16%;
 }
@@ -539,7 +539,12 @@ body{
 
 #toplinesContainer{
     width:75%;
-    margin-left: 16%;
+    margin-left: 15.3%;
     margin-top: 3%;
     float : left;
+}
+
+#instructions-content-box h1{
+    font-size:20px;
+    text-align:center;
 }
