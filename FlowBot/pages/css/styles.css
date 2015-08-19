@@ -605,18 +605,20 @@ body{
 }
 
 .checkmark {
-    display:inline-block;
+   display: inline-block;
     width: 100px;
     height: 100px;
-    -ms-transform: rotate(45deg); /* IE 9 */
-    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
+    margin-left: 16%;
+    margin-top: 6%;
 }
 
 .checkmark_stem {
    position: absolute;
-    width: 17px;
-    height: 115px;
+    width: 13px;
+    height: 93px;
     background-color: yellow;
     left: 52px;
     top: -88px;
@@ -624,9 +626,9 @@ body{
 
 .checkmark_kick {
     position: absolute;
-    width: 45px;
-    height: 14px;
+    width: 41px;
+    height: 11px;
     background-color: yellow;
-    left: 8px;
-    top: 13px;
+    left: 23px;
+    top: -6px;
 }
