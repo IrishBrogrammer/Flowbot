@@ -176,13 +176,24 @@ body{
 .optionsbutton
 {
 	height : 80%;
-	width: 15%;
+	width: 14%;
 	margin-left: 2%;
 	font-family: "BebasNeue";
 	font-size: xx-large;
 	background-color: #212121;
     text-align: center;
+    float : left;
 }
+
+.optionsbutton p
+{
+    width: 100%;
+    height: 50%;
+    margin-left: 2%;
+    margin-top: 14%;
+}
+
+
 
 
 
