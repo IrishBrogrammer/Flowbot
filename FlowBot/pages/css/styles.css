@@ -468,7 +468,7 @@ body{
 
 #instructionsPageTitle {
     font-size: 45px;
-    margin-left: 19%;
+    margin-left: 30%;
     margin-top: -2%;
     float: left;
 }
@@ -489,14 +489,14 @@ body{
 #instructionsBox2{
     float: left;
     height: 100%;
-    width: 33%;
+    width: 32%;
     background-color: black;
     margin-left: 1%;
 }
 #instructionsBox3{
     float: left;
     height: 100%;
-    width: 33%;
+    width: 32%;
     background-color: black;
     margin-left: 1%;
 }
