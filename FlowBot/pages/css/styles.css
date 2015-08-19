@@ -350,5 +350,6 @@ body{
     background-color: green;
     margin-top: 28%;
     margin-left: -30%;   
+    float : left;
 }
 
