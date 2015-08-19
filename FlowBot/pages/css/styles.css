@@ -298,9 +298,13 @@ body{
     margin-top: 10%;
 }
 
-#confirmPageMinimum h2, h3 {
+#confirmPageMinimum h2 {
     color: yellow;
 }
+#confirmPageMinimum h3 {
+    color: yellow;
+}
+
 
 .minMaxBar {
     width: 103.5%;
@@ -313,4 +317,19 @@ body{
 
 #maxBar{
     background-color: red;
+}
+
+#confirmPageMaximum {
+    float: left;
+    text-align: center;
+    margin-left: 14%;
+    margin-top: 10%;
+}
+
+#confirmPageMaximum h2 {
+    color: red;
+}
+
+#confirmPageMaximum h3 {
+    color: red;
 }
