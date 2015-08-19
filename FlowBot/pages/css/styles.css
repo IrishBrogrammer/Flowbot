@@ -465,3 +465,16 @@ body{
 
 /*Instructions page*/
 
+#instructionsPageTitle {
+    font-size: 45px;
+    margin-left: 19%;
+    margin-top: -2%;
+    float: left;
+}
+
+#instructions-content-box{
+    width:70%;
+    height:10%;
+    float:left;
+    margin-left:5%;
+}
