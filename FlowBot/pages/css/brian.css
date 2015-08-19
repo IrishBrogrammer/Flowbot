@@ -468,8 +468,18 @@
 
 .loginrow
 {
-    width : 100%;
-    height : 25%;
-    border-bottom: solid black;
+    width: 100%;
+    height: 25%;
+    border-bottom: solid#79797d;
+    background-color: #87878a;
+}
+
+
+.loginkey
+{
+    width: 32.5%;
+    height : 100%;
+    color: white;
+    border-right: solid#79797d;
 }
 
