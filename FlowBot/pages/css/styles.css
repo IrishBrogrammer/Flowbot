@@ -193,7 +193,11 @@ body{
     margin-top: 14%;
 }
 
-
+#mantracbutton p
+{
+	margin-left: 0%;
+    margin-top: 2%;
+}
 
 
 
