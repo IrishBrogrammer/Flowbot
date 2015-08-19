@@ -31,10 +31,10 @@
 #declinereceiptline
 {
     width: 30%;
-    margin-left: 19%;
+    margin-left: 51%;
     margin-top: -1%;
     font-size: 35px;
-    background-color: green;
+    background-color: red;
     text-align: center;
     float: left;
 }
