@@ -3,6 +3,7 @@ body{
 	opacity:0.7;
 	color: white;
 	height: 100%;
+    font-family:'BebasNeue';
 }
 
 
@@ -467,35 +468,83 @@ body{
 
 #instructionsPageTitle {
     font-size: 45px;
-    margin-left: 19%;
+    margin-left: 30%;
     margin-top: -2%;
     float: left;
 }
 
 #instructions-content-box{
     width: 75%;
-    height: 44%;
+    height: 39%;
     float: left;
     margin-left: 16%;
-    margin-top: 3%;
-    background-color: red;
 }
 
 #instructionsBox1{
-    float:left;
-    height:100%;
-    width:30%;
-    background-color:blue;
+   float: left;
+    height: 100%;
+    width: 32%;
+    background-color: black;
 }
 #instructionsBox2{
-    float:left;
-    height:100%;
-    width:30%;
-    background-color:green;
+    float: left;
+    height: 100%;
+    width: 32%;
+    background-color: black;
+    margin-left: 1%;
 }
 #instructionsBox3{
-    float:left;
-    height:100%;
-    width:30%;
+    float: left;
+    height: 100%;
+    width: 32%;
+    background-color: black;
+    margin-left: 1%;
+}
+
+#instructionsContentUnderline{
+    width: 75%;
+    height: 3%;
+    float: left;
+    margin-left: 16%;
+    margin-top: 1%;
+    background-color: yellow;
+}
+
+#instructionsBox1TopLine{
+     width: 32%;
+    height: 3%;
+    float: left;
+    margin-left: 1%;
+    margin-bottom: 1%;
     background-color:yellow;
+}
+
+#instructionsBox2TopLine{
+     width: 32%;
+    height: 3%;
+    float: left;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    background-color:green;
+}
+
+#instructionsBox3TopLine{
+     width: 32%;
+    height: 3%;
+    float: left;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    background-color:red;
+}
+
+#toplinesContainer{
+    width:75%;
+    margin-left: 15.3%;
+    margin-top: 3%;
+    float : left;
+}
+
+#instructions-content-box h1{
+    font-size:20px;
+    text-align:center;
 }
