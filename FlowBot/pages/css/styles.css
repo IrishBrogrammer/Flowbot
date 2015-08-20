@@ -1343,9 +1343,14 @@ body{
     background-color: white
 }
 
+#akey
+{
+    margin-left : 4.6%;
+}
+
 #secondrowkey .keyboardkey
 {
-    width : 7%;
+    width : 7.75%;
 }
 
 
