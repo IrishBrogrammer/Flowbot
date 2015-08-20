@@ -130,7 +130,7 @@ body{
 {
 	float: left;
 	width: 7.5%;
-	background-color: #fc6f6a;
+	background-color: #F75858;
 	margin-top: 4.25%;
 	margin-left: -7.5%;
 }
@@ -335,11 +335,11 @@ body{
 }
 
 #confirmPageMinimum h2 {
-    color: yellow;
+    color: #EAB248;
     font-family:'airship';
 }
 #confirmPageMinimum h3 {
-    color: yellow;
+    color: #EAB248;
     font-family:'airship';
 }
 
@@ -355,11 +355,11 @@ body{
 }
 
 #minBar{
-    background-color:yellow;
+    background-color: #EAB248;
 }
 
 #maxBar{
-    background-color: red;
+    background-color: #F75858;
 }
 
 #confirmPageMaximum {
@@ -370,12 +370,12 @@ body{
 }
 
 #confirmPageMaximum h2 {
-    color: red;
+    color: #F75858;
     font-family:'airship';
 }
 
 #confirmPageMaximum h3 {
-    color: red;
+    color: #F75858;
     font-family:'airship';
 }
 
@@ -396,7 +396,7 @@ body{
 #confirmButtonLine
 {
     width: 20%;
-    background-color: green;
+    background-color: #93C34F;
     margin-top: 28%;
     margin-left: -24%;   
     float : left;
@@ -1268,7 +1268,7 @@ body{
 
 #languagedrop
 {
-    color: red;
+    color: #F75858;
     width: 100%;
     font-size: 20px;
     font-family: "BebasNeue";
@@ -1296,7 +1296,7 @@ body{
     height: 9px;
     margin-top: 13%;
     margin-left: -5%;
-    background-color: red;
+    background-color: #F75858;
 }
 
 
