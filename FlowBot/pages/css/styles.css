@@ -343,7 +343,11 @@ body{
     text-align: center;
     float: left;
     margin-top: 29%;
-    margin-left: -30%;
+    margin-left: -24%;
+}
+
+#confirmButton p{
+    margin-top:20%;
 }
 
 #confirmButtonLine
@@ -351,7 +355,7 @@ body{
     width: 20%;
     background-color: green;
     margin-top: 28%;
-    margin-left: -30%;   
+    margin-left: -24%;   
     float : left;
 }
 
@@ -380,6 +384,7 @@ body{
     color:black;
     width: 100%;
     height: 3%;
+    margin-left:4%;
 }
 
 #Refundheader{
