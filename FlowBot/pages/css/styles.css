@@ -309,6 +309,11 @@ body{
     font-family:'airship';
 }
 
+#confirmlang
+{
+    margin-left: 89%;
+    margin-top: -34%;
+}
 
 .minMaxBar {
     width: 103.5%;
@@ -351,7 +356,7 @@ body{
 }
 
 #confirmButton p{
-    margin-top:20%;
+    margin-top:10%;
 }
 
 #confirmButtonLine
