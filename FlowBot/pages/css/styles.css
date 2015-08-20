@@ -357,7 +357,7 @@ body{
 
 /*Refund page*/
 
-#refundPageTitle{
+#refundPageTitle h1{
     text-align: center;
     font-size: 70px;
     
@@ -660,5 +660,5 @@ body{
     margin-top: -174%;
     transform: rotate(-25deg);
     margin-left: -6%;
-    
+
 }
