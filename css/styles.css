@@ -1346,15 +1346,15 @@ body{
 /*terms and conditions page*/
 
 #termsContentBox{
-    height:400px;
-    width:400px;
-    float:left;
-    margin-left: 20%;
-    background-color:black;
+    background-color: black;
+    width: 45%;
+    height: 71%;
+    margin-left: 28%;
+    margin-top: 3%;
 }
 
 #termsContentBox P{
-    margin-left:2%;
-    color:white;
-    width:90%;
+       margin-left: 2%;
+    font-size: 22px;
+    margin-top: 0%;
 }
