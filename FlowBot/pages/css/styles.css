@@ -1387,15 +1387,31 @@ body{
 /*terms and conditions page*/
 
 #termsContentBox{
-    background-color: black;
+        background-color: black;
     width: 45%;
-    height: 71%;
+    height: 66%;
     margin-left: 28%;
-    margin-top: 3%;
+    margin-top: 2%;
+    padding-top: 1%;
 }
 
 #termsContentBox P{
-       margin-left: 2%;
-    font-size: 22px;
+     margin-left: 2%;
+    font-size: 20px;
     margin-top: 0%;
+    margin-bottom: 4%;
+}
+
+#termsPageTitle{
+    font-size: 50px;
+    margin-left: 31%;
+    margin-top: -2%;
+}
+
+#terms-upper-line{
+    height:5%;
+    width:45%;
+    margin-left:28%;
+    float:left;
+    background-color:#EAB248;
 }
