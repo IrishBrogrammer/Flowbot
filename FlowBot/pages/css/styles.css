@@ -1343,6 +1343,18 @@ body{
     background-color: white
 }
 
+#secondrowkey .keyboardkey
+{
+    width : 7%;
+}
+
+
+#deletekey
+{    
+    margin-left: 2%;
+    background-color: grey;
+}
+
 #spacekey
 {
     width : 40%;
