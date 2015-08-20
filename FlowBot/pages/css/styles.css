@@ -431,6 +431,12 @@ body{
     float: left;
 }
 
+#refundlang
+{
+    margin-left: 85%;
+    margin-top: -36%;
+}
+
 /*Payment Page*/
 
 #card{
