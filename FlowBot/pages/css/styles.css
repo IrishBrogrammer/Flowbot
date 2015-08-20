@@ -1389,6 +1389,29 @@ body{
     background-color: #F75858;
 }
 
+#keyboardtitle
+{
+    font-size: 30px;
+    margin-left: 7%;
+}
+
+
+#keyboardtitle h2
+{
+    height: 10%;
+    width: 60%;
+    margin-left: 24%;
+    margin-top: 2%;
+}
+
+#keyboardtitle p
+{
+    height: 10%;
+    width: 60%;
+    margin-left: 18%;
+    margin-top: 4%;
+}
+
 
 #keyboardarea
 {
