@@ -488,6 +488,33 @@ body{
 }
 
 /*Payment Page*/
+#PaymentPageTitle h2 
+{
+        font-size: 40px;
+    margin-left: 32%;
+    margin-top: 1%;
+}
+
+#PaymentPageTitle p
+{
+    font-size: 24px;
+    width: 46%;
+    text-align: center;
+    margin-left: 27%;
+    margin-top: -2%;
+}
+
+#paymentlang
+{
+    margin-left: 14;
+    margin-top: -28%;
+}
+
+#contactlessImage
+{
+    margin-left: 25%;
+    margin-top: 20%;
+}
 
 #card{
     height:300px;
@@ -514,7 +541,7 @@ body{
 
 #contactHeader{
     float:left;
-    margin-left: 19%;
+    margin-left: 26%;
 }
 
 #PaymentPageTitle h1{
