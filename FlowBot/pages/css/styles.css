@@ -1453,12 +1453,14 @@ body{
 }
 
 .termsPagePints {
-    background-color: red;
-    height: 100px;
-    width: 100px;
+    border-top: 162px solid grey;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    /* height: 109px; */
+    width: 78px;
     float: left;
     margin-left: 2%;
-    margin-bottom: 2%;
+    margin-top: 2%;
 }
 
 /*pint measurer on pour page*/
