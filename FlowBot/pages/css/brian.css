@@ -526,15 +526,16 @@
 
 #languageselect
 {
-    width: 100%;
-    margin-top: -37%;
+    display: none;
+    width: 52%;
+    margin-top: -21%;
     height: 75%;
     margin-left: 13%;
 }
 
 .languageoption
 {
-    width: 100%;
+    width: 98%;
     height: 19%;
     border: solid #212121;
 }
