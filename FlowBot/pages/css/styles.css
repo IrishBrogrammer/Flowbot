@@ -1366,3 +1366,9 @@ body{
     margin-left : 30%;
 }
 
+.emailbutton
+{
+    width : 12.5%;
+    margin-right: 1%;
+    height: 100%;
+}
