@@ -742,16 +742,20 @@ body{
 
 #drinkbubbletwo
 {
-    margin-top: -118%;
+    margin-top: -95%;
     float: left;
-    margin-left: 8%;
+    margin-left: 60%;
+    height: 15px;
+    width: 15px;
 }
 
 #drinkbubblethree
 {
-    margin-top: -118%;
+    margin-top: -50%;
     float: left;
-    margin-left: 8%;
+    margin-left: 31%;
+    height: 10px;
+    width: 10px;
 }
 
 
@@ -765,6 +769,11 @@ body{
     margin-left: -6%;
 }
 
+#instructlang
+{
+    margin-left: 15%;
+    margin-top: -16%;
+}
 #receiptbuttons
 {
     width: 80%;
