@@ -1380,6 +1380,15 @@ body{
     border: solid #212121;
 }
 
+.languageoption img
+{
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    margin-top: -4px;
+}
+
+
 #languageline
 {
     width: 126%;
