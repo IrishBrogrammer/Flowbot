@@ -1441,7 +1441,7 @@ body{
     margin-left: 40%;
     margin-top: 1%;
     font-size: 35px;
-    background-color: ##93C34F;
+    background-color: #93C34F;
     text-align: center;
     float: left;
 }
@@ -1516,6 +1516,12 @@ body{
     background-color: #d7dcde;
     color: black;
     text-align: center;
+}
+
+.emailbutton p
+{
+    margin-top: 7.5px;
+
 }
 
 /*terms and conditions page*/
