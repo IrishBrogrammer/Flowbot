@@ -57,10 +57,17 @@ body{
 
 #assistancetext
 {
-    margin-left: 18%;
+    margin-left: 25%;
     margin-top: 17%;
     font-size: 25px;
 }
+
+#assistlang
+{
+    margin-left: 92%;
+    margin-top: -21%;
+}
+
 
 #thankstitle
 {
@@ -106,7 +113,10 @@ body{
     margin-top: -2%;
 }
 
-
+#receiptlang
+{    margin-left: 91%;
+    margin-top: -26%;
+}
 
 
 
