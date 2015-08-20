@@ -644,17 +644,21 @@ body{
 }
 
 #drink-bubble{
-       height: 14px;
-    width: 14px;
+     height: 19px;
+    width: 17px;
     border-radius: 100%;
     background-color: black;
-    margin-top: -104%;
+    margin-top: 17%;
     margin-left: 73%;
 }
 
 #drink-straw{
-    background-color:yellow;
-    height:20px;
-    width:5px;
+    background-color: yellow;
+    height: 30px;
+    width: 8px;
+    /* position: absolute; */
+    margin-top: -174%;
+    transform: rotate(-25deg);
+    margin-left: -6%;
     
 }
