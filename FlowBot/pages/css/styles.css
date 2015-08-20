@@ -735,9 +735,25 @@ body{
 
 #drinkbubbleone
 {
-    margin-top: 17%;
-    margin-left: 73%;
+    margin-top: -118%;
+    float: left;
+    margin-left: 8%;
 }
+
+#drinkbubbletwo
+{
+    margin-top: -118%;
+    float: left;
+    margin-left: 8%;
+}
+
+#drinkbubblethree
+{
+    margin-top: -118%;
+    float: left;
+    margin-left: 8%;
+}
+
 
 
 #drink-straw{
