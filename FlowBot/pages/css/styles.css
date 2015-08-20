@@ -1573,14 +1573,24 @@ body{
 }
 
  .bubType2{
-    height: 20px;
-    width: 20px;
+        height: 22px;
+    width: 22px;
     border-radius: 100%;
-    background-color: black;
+    background-color: #2B2B2B;
     float: left;
-    margin-top: -172%;
+    margin-top: -108%;
+    margin-left: 63%;
 }
 
+.bubType3{
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    background-color: #434545;
+    float: left;
+    margin-top: -80%;
+    margin-left: 40%;
+}
 
 
 
