@@ -1630,3 +1630,15 @@ body{
     width: 40%;
     height: 88%;
 }
+
+/*options page yellow lines*/
+
+.optionspageYellowLines{
+    float:left;
+    margin-left:2%;
+    width:14%;
+
+}
+#OptLine1{
+margin-left:5
+}
