@@ -715,16 +715,16 @@ body{
 }
 
 #drink{
-    border-top: 80px solid #EAB248;
-    border-left: 30px solid transparent;
-    border-right: 27px solid transparent;
-    margin-left: 28%;
-    margin-top: -7%;
+    border-top: 91px solid #EAB248;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    margin-left: 32%;
+    margin-top: -10%;
     float: left;
     width: 61px;
 }
 
-#drink-bubble{
+.drink-bubble{
      height: 19px;
     width: 17px;
     border-radius: 100%;
@@ -732,6 +732,13 @@ body{
     margin-top: 17%;
     margin-left: 73%;
 }
+
+#drinkbubbleone
+{
+    margin-top: 17%;
+    margin-left: 73%;
+}
+
 
 #drink-straw{
     background-color: #EAB248;
