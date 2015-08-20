@@ -1374,9 +1374,11 @@ body{
 
 .emailbutton
 {
-    width : 12.5%;
+    width: 12.5%;
     margin-right: 1%;
-    height: 100%;
+    margin-top: -1.5%;
+    height: 80%;
     background-color: #d7dcde;
     color: black;
+    text-align: center;
 }
