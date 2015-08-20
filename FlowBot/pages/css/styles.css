@@ -1624,6 +1624,7 @@ body{
 
 
 
+
 /*pint measurer on pour page*/
 #pintmeasurer {
     float: left;
@@ -1647,4 +1648,8 @@ margin-left: 92px;
 }
 #OptLine3 {
     margin-left: 1.7%;
+}
+
+#OptLine6 {
+    margin-left: 22px;
 }
