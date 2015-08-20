@@ -1315,7 +1315,7 @@ body{
     height : 12%;
     margin-top: 1%;
     margin-bottom: 1%;
-    background-color: grey;
+    background-color: #d7dcde;
 }
 
 #entryrow
@@ -1334,10 +1334,13 @@ body{
 
 .keyboardkey
 {
-    background-color: white;
-    color: black;
+        color: black;
     width: 7%;
     height: 100%;
+    float: left;
+    text-align: center;
+    margin-left: 1%;
+    background-color: white
 }
 
 #spacekey
