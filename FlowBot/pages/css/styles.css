@@ -1373,6 +1373,13 @@ body{
     margin-left: 13%;
 }
 
+#termlang
+{
+    float: left;
+    margin-left: 88%;
+    margin-top: -27%
+}
+
 .languageoption
 {
     width: 98%;
