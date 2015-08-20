@@ -1611,11 +1611,17 @@ body{
 /*options page yellow lines*/
 
 .optionspageYellowLines{
-    float:left;
-    margin-left:2%;
-    width:14%;
+        float: left;
+    margin-left: 2%;
+    width: 12.5%;
+    background-color: #EAB248;
+    height: 2%;
+    margin-top: 11%;
 
 }
 #OptLine1{
-margin-left:5
+margin-left: 92px;
+}
+#OptLine3 {
+    margin-left: 1.7%;
 }
