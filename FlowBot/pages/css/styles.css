@@ -1488,6 +1488,14 @@ body{
     margin-top: 2%;
 }
 
+.termsPageBubbles{
+    height:20%;
+    width:20%;
+    border-radius:100%;
+    background-color: #434545;
+    float:left;
+}
+
 /*pint measurer on pour page*/
 #pintmeasurer {
     float: left;
