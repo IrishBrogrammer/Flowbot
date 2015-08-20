@@ -1383,3 +1383,19 @@ body{
     color: black;
     text-align: center;
 }
+
+/*terms and conditions page*/
+
+#termsContentBox{
+    background-color: black;
+    width: 45%;
+    height: 71%;
+    margin-left: 28%;
+    margin-top: 3%;
+}
+
+#termsContentBox P{
+       margin-left: 2%;
+    font-size: 22px;
+    margin-top: 0%;
+}
