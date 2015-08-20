@@ -3,18 +3,7 @@
 <link rel="stylesheet" type="text/css" href="css/styles.css">
 <link rel="stylesheet" type="text/css" href="css/brian.css">
 
-<script>
 
-var lang = document.getElementById('language');
-
-lang.style.cursor = 'pointer';
-lang.onclick = function() {
-
-    var drop = document.getElementById('languagedrop');
-    drop.parentNode.style.display = 'none';
-
-};
-</script>
 
 
 </head>
@@ -63,6 +52,17 @@ lang.onclick = function() {
 
 
 </body>
+<script>
 
+var lang = document.getElementById('language');
+
+lang.style.cursor = 'pointer';
+lang.onclick = function() {
+
+    var drop = document.getElementById('languagedrop');
+    drop.style.display = 'none';
+
+};
+</script>
 
 </html>
