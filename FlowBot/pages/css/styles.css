@@ -1300,6 +1300,23 @@ body{
 }
 
 
+#keyboardarea
+{
+    width: 70%;
+    height: 73%;
+    float: left;
+    background-color: red;
+    margin-left: 15%;
+    margin-top: 1%;
+}
+
+.keyboardrow
+{
+    width: 100%;
+    height : 14%;
+    border : solid black;
+    background-color: white;
+}
 
 
 
