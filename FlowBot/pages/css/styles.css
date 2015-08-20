@@ -302,9 +302,11 @@ body{
 
 #confirmPageMinimum h2 {
     color: yellow;
+    font-family:'airship';
 }
 #confirmPageMinimum h3 {
     color: yellow;
+    font-family:'airship';
 }
 
 
@@ -330,10 +332,12 @@ body{
 
 #confirmPageMaximum h2 {
     color: red;
+    font-family:'airship';
 }
 
 #confirmPageMaximum h3 {
     color: red;
+    font-family:'airship';
 }
 
 #confirmButton {
