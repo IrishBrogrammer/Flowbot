@@ -1,126 +1,1360 @@
 body{
-	background-color:#F1F6F6;
+	background-color: #303030;
 	opacity:0.7;
+	color: white;
+	height: 100%;
+    font-family:'BebasNeue';
+    letter-spacing: 2px;
 }
 
 
-
-.bar
+/* Load fonts used in page */
+@font-face
 {
-	height : 5%;
-	position: absolute;
-  	margin-top: 10%;
-  	margin-left: 18%;
+	font-family: 'BebasNeue';
+	src: url("BebasNeue.otf") format("opentype");
 }
 
-#progressbar
+@font-face
 {
-	width  : 15%;
-	background-color : white;  
-  	z-index: 10;
-}
-
-@-webkit-keyframes fadeInSkill 
-{
-    from {width: 0%;}
-    to {width : 8%;}
+	font-family: 'Airship';
+	src: url("airship.ttf") format("truetype");
 }
 
 
-@keyframes fadeInSkill 
+.PageTitle
 {
-    from {width: 0%;}
-    to {width : 8%;}
+	font-family: "BebasNeue";
+	color: white;
+	font-size: 70;
 }
-
-#progressbarfilling
-{
-	width  : 8%;
-	background-color : #FF8F49;  
-  	z-index: 15;
-  	-webkit-animation-name: fadeInSkill; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 5s; /* Chrome, Safari, Opera */
-  	animation-name: fadeInSkill;
-  	animation-duration: 5s;
-}
-
-
-.block
-{
-
-	height : 650px;
-	width : 100%;	
-}
-
-#aboutme
-{
-	background-color : #19FFD1;
-	opacity:0.75;	
-}
-
-#myskills
-{
-	background-color : #FF7489;	
-	position: relative;
-}
-
-#mywork
-{
 	
-	background-color :#2E82FF;
-	opacity:0.9;
-}
-
-#contact
+#errortitle
 {
-	background-color: #3F51B5;
-	position: relative;
-	color : #FFFFFF;
+	margin-left: 35%;
+    margin-top: -6.5%;	
 }
 
-#contact h1
+#errortext
 {
-	margin-left: 44%;
-	margin-top:  5%;
-	position: absolute;
+	font-size: 60px;
+    font-family: BebasNeue;
+    margin-left: 35%;
+    margin-top: 14%;
 }
 
-#contact-tagline
+#errorlang
 {
-	position: absolute;
-  	margin-left: 40%;
-  	margin-top: 10%;
-  	font-size: 18px;
+    margin-left: 91%;
+    margin-top: -21%;
 }
 
-#emailblock
+#assistancetitle
 {
-	background-color: #607D8B;
-	border: 1px solid black;
-	position: absolute;
-	margin-left:  30%;
-	margin-top: 13%;
-	width: 40%;
-	height:  50px;
+	margin-left: 35%;
+    margin-top: -6.5%;	
 }
 
-#emailAddress
+#assistancetext
 {
-	font-size: 32px;
-	margin-left: 17%;
+    margin-left: 25%;
+    margin-top: 17%;
+    font-size: 25px;
 }
 
-nav.navbar.navbar-default {
-  position: fixed;
-  z-index: 2;
-  width : 100%;
-}
-
-#myName
+#assistlang
 {
-	color: #373737;  
-	position: absolute;
-  	margin-top: 10%;
-  	margin-left: 38%;
-  	font-family: monospace;
+    margin-left: 92%;
+    margin-top: -21%;
+}
+
+
+#thankstitle
+{
+	margin-left: 13%;
+    margin-top: -6.5%;
+}
+
+#thankstext
+{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10%;
+}
+
+#locktitle
+{    margin-left: 39%;
+    margin-top: -5%;
+}
+
+#locktaplang
+{
+    margin-left: 91%;
+    margin-top: -33%;
+}
+
+#optionstitle
+{
+	margin-left: 35%;
+    margin-top: -6.5%;
+}
+
+#receipttitle h1
+{
+	font-size: 50px;
+    margin-left: 36%;
+    margin-top: 1%;
+}
+
+#receipttitle h2
+{
+	font-size: 30px;
+    margin-left: 30%;
+    margin-top: -2%;
+}
+
+#receiptlang
+{    margin-left: 91%;
+    margin-top: -26%;
+}
+
+
+
+/* Line that appears above or below each button */
+.buttonline
+{
+	height: 5px;
+}
+
+#cancelline
+{
+	float: left;
+	width: 7.5%;
+	background-color: #fc6f6a;
+	margin-top: 4.25%;
+	margin-left: -7.5%;
+}
+
+#nextcustomerline
+{
+	width: 20%;
+    height: 2%;
+    margin-left: 40%;
+    margin-top: 1.5%;
+    font-size: 35px;
+    background-color: yellow;
+    text-align: center;
+}
+
+#lockbuttonline
+{    width: 20%;
+    height: 2%;
+    margin-left: 40%;
+    margin-top: 11%;
+    font-size: 35px;
+    background-color: red;
+    text-align: center;
+    float: left;
+}
+
+
+
+
+/* Bar along the top of each page */
+#topbar
+{
+	float: left;
+	width : 100%;
+	height: 20%;
+	background-color: #212121;
+}
+
+/* Cancel button in navbar */
+#cancelbutton
+{
+	float: left;
+	width: 7.5%;
+	height: 25%;
+	text-align: center;
+	background-color: #303030;
+	margin-top: 1%;
+	margin-left: 1%;
+	font-family: "BebasNeue" , Fallback , sans-serif;
+
+}
+
+#pagecontent
+{
+	height : 65%;
+	width: 100%;
+	float: left;
+}
+
+#carousel
+{
+	float: left;
+	width: 100%;
+	height: 15%;
+}
+
+.carouselbutton
+{
+	float: left;
+	background-color: #212121;
+	text-align: center;
+	height : 100%;
+	width: 24.5%;
+	font-family: "BebasNeue";
+	font-size : xx-large;
+}
+
+
+#optionsbar
+{
+    height: 21%;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 12%;
+}
+
+.optionsbutton
+{
+	height : 80%;
+	width: 14%;
+	margin-left: 2%;
+	font-family: "BebasNeue";
+	font-size: 30px;
+	background-color: #212121;
+    text-align: center;
+    float : left;
+}
+
+.optionsbutton p
+{
+    width: 100%;
+    height: 50%;
+    margin-left: 2%;
+    margin-top: 14%;
+}
+
+#optionlang
+{
+    margin-left: 92%;
+    margin-top: -36%;
+}
+
+#mantracbutton p
+{
+	margin-left: 0%;
+    margin-top: 2%;
+}
+
+#mantraclang
+{
+    margin-left: 33%;
+    margin-top: -19%;
+}
+
+
+
+#tncbutton
+{
+	margin-left: 0.5%;
+}
+
+#instructionsbutton
+{
+	margin-left : 0.5%;
+}
+
+#assistbutton
+{
+	margin-left: 0.5%;
+}
+
+
+.contentbox
+{
+	font-family: "BebasNeue";
+	color: white;
+	background-color: #212121;
+}
+
+#nextcustomerbutton
+{
+	width: 20%;
+    height: 15%;
+    margin-left: 40%;
+    margin-top: -28px;
+    font-size: 35px;
+    text-align: center;
+}
+
+#lockbutton
+{
+	width: 20%;
+    height: 25%;
+    margin-left: 40%;
+    margin-top: 6px;
+    font-size: 35px;
+    text-align: center;
+    float: left;
+}
+
+#lockbutton p 
+{
+    height: 10%;
+    width: 20%;
+    margin-left: 38%;
+    margin-top: 15%;
+    float: left;
+}
+
+
+
+
+/*Confirm page*/
+#confirmPageTitle h1 {
+    font-size: 81%;
+    text-align: center;
+    margin-top: 1%;
+}
+
+#confirmPageTitle h2 {
+    font-size: 34%;
+    margin-left: 30%;
+    width: 49%;
+    text-align: center;
+    margin-top: -2.5%;
+}
+#confirmPageMinimum{
+   float: left;
+    text-align: center;
+    margin-left: 34%;
+    margin-top: 10%;
+}
+
+#confirmPageMinimum h2 {
+    color: yellow;
+    font-family:'airship';
+}
+#confirmPageMinimum h3 {
+    color: yellow;
+    font-family:'airship';
+}
+
+#confirmlang
+{
+    margin-left: 89%;
+    margin-top: -34%;
+}
+
+.minMaxBar {
+    width: 103.5%;
+    height: 2%;
+}
+
+#minBar{
+    background-color:yellow;
+}
+
+#maxBar{
+    background-color: red;
+}
+
+#confirmPageMaximum {
+    float: left;
+    text-align: center;
+    margin-left: 14%;
+    margin-top: 10%;
+}
+
+#confirmPageMaximum h2 {
+    color: red;
+    font-family:'airship';
+}
+
+#confirmPageMaximum h3 {
+    color: red;
+    font-family:'airship';
+}
+
+#confirmButton {
+    width: 20%;
+    height: 19%;
+    font-size: 35px;
+    text-align: center;
+    float: left;
+    margin-top: 29%;
+    margin-left: -24%;
+}
+
+#confirmButton p{
+    margin-top:10%;
+}
+
+#confirmButtonLine
+{
+    width: 20%;
+    background-color: green;
+    margin-top: 28%;
+    margin-left: -24%;   
+    float : left;
+}
+
+/*Refund page*/
+
+#refundPageTitle {
+    margin-left: 38%;
+    font-size: 69px;
+    margin-top: -8%;
+    
+}
+
+#refundDetailsBox{
+    height: 222px;
+    width: 412px;
+    margin-left: 35%;
+    margin-top: 3%;
+    background-color: white;
+    float: left;
+}
+
+#refundDetailsBox p{
+    font-family:sans-serif;
+    font-size:12px;
+    float:left;
+    color:black;
+    width: 100%;
+    height: 3%;
+    margin-left:4%;
+}
+
+#Refundheader{
+    color: white;
+    font-size: 31px;
+    float: left;
+    margin-left: 43%;
+    margin-bottom: 1%;
+    margin-top: 2%;
+}
+
+#refundAmountBox{
+        height: 50px;
+    width: 412px;
+    background-color: white;
+    float: left;
+    margin-left: 35%;
+}
+
+#confirmRefundButton {
+        width: 11%;
+    height: 14%;
+    font-size: 35px;
+    text-align: center;
+    float: left;
+    margin-top: 6%;
+    margin-left: -22%;
+}
+
+#confirmRefundButton p{
+    margin-top:2%;
+}
+
+#confirmRefundButtonLine
+{
+    width: 11%;
+    background-color: red;
+    margin-top: 5.5%;
+    margin-left: -22%;
+    float: left;
+}
+
+#refundlang
+{
+    margin-left: 85%;
+    margin-top: -36%;
+}
+
+/*Payment Page*/
+
+#card{
+    height:300px;
+    width:400px;
+    background-color:black;
+    float:left;
+    margin-left: 24%;
+    margin-top: 7%;
+}
+
+#contactless{
+    height:300px;
+    width:400px;
+    background-color:black;
+    float:left;
+    margin-left: 2%;
+    margin-top: 7%;
+}
+
+#cardHeader{
+    float:left;
+    margin-left: 35%;
+}
+
+#contactHeader{
+    float:left;
+    margin-left: 19%;
+}
+
+#PaymentPageTitle h1{
+    text-align: center;
+    font-size: 70px;
+    
+}
+
+#PaymentPageTitle h1{
+    text-align: center;
+    font-size: 34%;
+    
+}
+
+#cardImage {
+    height: 35%;
+    width: 43%;
+    background-color: #EDD74A;
+    text-align: auto;
+    margin-left: 26%;
+    margin-top: 23%;
+}
+
+#cardOne {
+    width: 100%;
+    height: 22%;
+    background-color: orange;
+    margin-top: 14%;
+    float: left;
+}
+
+/*Instructions page*/
+
+#instructionsPageTitle {
+    font-size: 45px;
+    margin-left: 30%;
+    margin-top: -2%;
+    float: left;
+}
+
+#instructions-content-box{
+    width: 75%;
+    height: 33%;
+    float: left;
+    margin-left: 16%;
+}
+
+#instructionsBox1{
+   float: left;
+    height: 100%;
+    width: 32%;
+    background-color: black;
+}
+#instructionsBox2{
+    float: left;
+    height: 100%;
+    width: 32%;
+    background-color: black;
+    margin-left: 1%;
+}
+#instructionsBox3{
+    float: left;
+    height: 100%;
+    width: 32%;
+    background-color: black;
+    margin-left: 1%;
+}
+
+#instructionsContentUnderline{
+     width: 73.5%;
+    height: 3%;
+    float: left;
+    margin-left: 16%;
+    margin-top: 0.5%;
+    background-color: yellow;
+}
+
+#instructionsBox1TopLine{
+     width: 32%;
+    height: 3%;
+    float: left;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    background-color:yellow;
+}
+
+#instructionsBox2TopLine{
+     width: 32%;
+    height: 3%;
+    float: left;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    background-color:green;
+}
+
+#instructionsBox3TopLine{
+     width: 32%;
+    height: 3%;
+    float: left;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    background-color:red;
+}
+
+#toplinesContainer{
+    width:75%;
+    margin-left: 15.3%;
+    margin-top: 2%;
+    float : left;
+    margin-bottom: -1%;
+}
+
+#instructions-content-box h1{
+    font-size:40px;
+    text-align:center;
+}
+
+#steps{
+    float:left;
+    margin-left:16%;
+}
+
+#steps p{
+    font-size:20px;
+    font-family:'sans-serif';
+}
+
+#instructionsConfirmButton {
+    width: 13%;
+    height: 12%;
+    font-size: 35px;
+    text-align: center;
+    float: left;
+    background-color: #212121;
+    margin-top: 15%;
+    margin-left: -34%;
+}
+
+#instructionsConfirmButton p{
+    margin-top:2%;
+}
+
+#instructionsConfirmButtonLine
+{
+    width: 13%;
+    height: 2%;
+    background-color: green;
+    margin-top: 14%;
+    margin-left: -34%;
+    float: left;
+}
+
+#credit-card{
+    height: 40%;
+    width: 40%;
+    background-color: yellow;
+    margin-left: 28%;
+    margin-top: -5%;
+
+}
+
+#credit-card-line{
+    height: 21%;
+    width: 100%;
+    background-color: orange;
+    margin-top: 11%;
+    float: left;
+    opacity: 0.8;
+}
+
+.checkmark {
+   display: inline-block;
+    width: 100px;
+    height: 100px;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    margin-left: 16%;
+    margin-top: 6%;
+}
+
+.checkmark_stem {
+   position: absolute;
+    width: 13px;
+    height: 93px;
+    background-color: yellow;
+    left: 52px;
+    top: -88px;
+}
+
+.checkmark_kick {
+    position: absolute;
+    width: 41px;
+    height: 11px;
+    background-color: yellow;
+    left: 23px;
+    top: -6px;
+}
+
+#drink{
+    border-top: 80px solid yellow;
+    border-left: 30px solid transparent;
+    border-right: 27px solid transparent;
+    margin-left: 28%;
+    margin-top: -7%;
+    float: left;
+    width: 61px;
+}
+
+#drink-bubble{
+     height: 19px;
+    width: 17px;
+    border-radius: 100%;
+    background-color: black;
+    margin-top: 17%;
+    margin-left: 73%;
+}
+
+#drink-straw{
+    background-color: yellow;
+    height: 30px;
+    width: 8px;
+    /* position: absolute; */
+    margin-top: -174%;
+    transform: rotate(-25deg);
+    margin-left: -6%;
+
+}
+
+
+
+#receiptbuttons
+{
+    width: 80%;
+    height: 40%;
+    margin-left: 10%;
+    margin-top: 12%;
+    float: left;
+}
+
+#confirmreceiptline
+{
+    width: 30%;
+    margin-left: 19%;
+    margin-top: -1%;
+    font-size: 35px;
+    background-color: green;
+    text-align: center;
+    float: left;
+}
+
+
+#confirmreceiptbutton
+{
+    width: 30%;
+    height: 80%;
+    margin-left: 19%;
+    font-size: 35px;
+    text-align: center;
+    float: left;
+}
+
+#declinereceiptline
+{
+    width: 30%;
+    margin-left: 51%;
+    margin-top: -1%;
+    font-size: 35px;
+    background-color: red;
+    text-align: center;
+    float: left;
+}
+
+#introbody
+{
+    background-color: #ff7070;
+}
+
+
+
+#unlockbutton
+{
+    width: 20%;
+    height: 25%;
+    margin-left: 78%;
+    margin-top: 6px;
+    font-size: 35px;
+    text-align: center;
+    float: left;
+}
+
+
+#declinereceiptbutton
+{
+    width: 30%;
+    height: 80%;
+    font-size: 35px;
+    margin-left: 2%;
+    text-align: center;
+    float: left;
+}
+
+#unlockbuttonline {
+    width: 20%;
+    height: 2%;
+    margin-left: 78%;
+    margin-top: 11%;
+    font-size: 35px;
+    background-color: yellow;
+    text-align: center;
+    float: left;
+}
+
+#locktapinfo
+{
+    float: left;
+    height: 10%;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 9%;
+    text-align: center;
+}
+
+#transactiontitle
+{
+    margin-left: 27%;
+    margin-top: -6%;
+}
+
+#confirmtransactionline
+{
+    width: 15%;
+    height: 2%;
+    margin-left: 43%;
+    margin-top: 2%;
+    font-size: 35px;
+    background-color: green;
+    text-align: center;
+    float: left;
+}
+
+#confirmtransactionbutton
+{
+    width: 15%;
+    height: 20%;
+    margin-left: 43%;
+    margin-top: 6px;
+    font-size: 35px;
+    text-align: center;
+    float: left;    
+}
+
+#amounttransactionline
+{
+    background-color: red;
+    width: 20%;
+    margin-left: 41%;
+    margin-top: 7%;
+    height: 2%;
+}
+
+#amountbutton
+{
+    height: 25%;
+    width: 20%;
+    margin-left: 41%;
+    margin-top: 8px;
+    float: left;
+}
+
+#amountbutton p
+{
+    font-size: 40px;
+    width: 64%;
+    height: 50%;
+    margin-left: 31%;
+    margin-top: 4%;
+    float: left;
+}
+
+
+#amountentery
+{
+    height: 31%;
+    width: 95%;
+    background-color: white;
+    margin-left: 2.5%;
+    float: left;
+    margin-top: -16%;
+}
+
+
+#introglass
+{
+    border-top: 400px solid #ffea70;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    margin-left: 37%;
+    margin-top: 6%;
+    float: left;
+    width: 200px;
+}
+
+#introbody h1
+{
+    float: left;
+    height: 10%;
+    width: 38%;
+    margin-left: 36%;
+    font-size: 53px;
+    font-family: BebasNeue;
+}
+
+#introbuttonline
+{
+    width: 16%;
+    height: 7px;
+    margin-left: 41%;
+    margin-top: -45px;
+    font-size: 35px;
+    text-align: center;
+    float: left;
+    background-color: a3cc60;
+}
+
+#introbutton
+{
+    float: left;
+    width: 16%;
+    height: 15%;
+    margin-left: 41%;
+    margin-top: -2.5%;
+    background-color: #212121;
+}
+
+#introbutton p
+{
+    width: 50%;
+    height: 30%;
+    font-size: 50px;
+    margin-left: 28%;
+    float: left;
+    margin-top: 11%;
+
+}
+
+.bubble
+{
+  display: block;
+  background: white;
+  border-radius: 50%;
+  float: left;
+}
+
+#bubbleone
+{
+    height: 80px;
+    width: 80px;
+    margin-left: 4px;
+    margin-top: -305px;
+}
+
+#bubbletwo
+{
+    height: 60px;
+    width: 60px;
+    margin-left: 123px;
+    margin-top: -227px;
+}
+
+#bubblethree
+{
+        height: 50px;
+    width: 50px;
+    margin-top: -126px;
+    margin-left: 49px;
+}
+
+#pourglass
+{
+    border-top: 400px solid #ffea70;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    margin-left: 0%;
+    margin-top: 3%;
+    float: left;
+    width: 200px;
+}
+
+#pourtitle h2
+{
+        font-size: 65px;
+    margin-left: 14%;
+    float: left;
+    height: 10%;
+    margin-top: 1%;
+}
+
+#pourtitle h1
+{
+    font-size: 45px;
+    float: left;
+    margin-left: 29%;
+    margin-top: 0%;
+    color: #ffea70;
+}
+
+#pourbuttonline
+{
+    width: 16%;
+    height: 7px;
+    margin-left: 80%;
+    margin-top: -45px;
+    font-size: 35px;
+    text-align: center;
+    float: left;
+    background-color: #a3cc60;
+}
+
+#pourbutton
+{
+    float: left;
+    width: 16%;
+    height: 15%;
+    margin-left: 80%;
+    margin-top: -2.5%;
+    background-color: #212121;
+}
+
+#pourbutton p
+{
+    width: 100%;
+    height: 30%;
+    font-size: 36px;
+    margin-left: 7%;
+    float: left;
+    margin-top: 5%;
+}
+
+#pourtotal
+{
+    float: left;
+    height: 1%;
+    width: 24%;
+}
+
+#pourtotal p
+{
+    height: 5%;
+    width: 68%;
+    margin-top: 100%;
+    margin-left: 73%;
+    font-size: 42px;
+    font-family: "BebasNeue";
+    float: left;
+}
+
+#pourlang
+{
+    margin-left: 88%;
+    margin-top: -34%;
+}
+}
+
+#measurer
+{
+        width: 40%;
+    height: 88%;
+    float: left;
+}
+
+
+#measurerline
+{
+    background-color: #212121;
+}
+
+#topline
+{
+    height: 5px;
+    width: 6%;
+    background-color: #212121;
+    float: left;
+    margin-left: 83%;
+    margin-top: 8%;
+}
+
+#verticalline
+{
+    width: 1%;
+    height: 91%;
+    margin-left: 89%;
+    margin-top: -1%;
+    background-color: #212121;
+    float: left;
+}
+
+#midline
+{    
+    height: 5px;
+    width: 6%;
+    background-color: #212121;
+    float: left;
+    margin-left: 83.75%;
+    margin-top: -68%;
+}
+
+#bottomline
+{
+    background-color: #212121;
+    width: 6%;
+    height: 5px;
+    float: left;
+    margin-top: 0;
+    margin-left: 83.75%;
+}
+
+#measurer p
+{
+    float: left;
+    height: 25px;
+    width: 28%;
+    font-size: 30px;
+    margin-left: 67%;
+    margin-top: -71%;
+    color: #ffea70;
+    font-family: BebasNeue;
+}
+
+
+#dispensetitle
+{
+    margin-left: 35%;
+    margin-top: -6%;
+}
+
+
+#logintitle
+{
+    margin-left: 36%;
+    margin-top: -6%;
+}
+
+#staffcard
+{
+    float: left;
+    width: 100px;
+    margin-left: 45.5%;
+    margin-top: 3%;
+    height: 80px;
+    background-color: #212121;
+}
+
+#logincard
+{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 19%;
+    background-color: #ffea70;
+    height: 50%;
+    float: left;
+}
+
+#loginstrip
+{
+    width: 100%;
+    height: 20%;
+    background-color: #edbb58;
+    margin-top: 18%;
+    float: left;
+}
+
+#loginentry
+{
+    width: 22%;
+    float: left;
+    height: 8%;
+    margin-left: 38.45%;
+    margin-top: 11px;
+    background-color: white;
+}
+
+#keypad
+{
+    width: 22%;
+    float: left;
+    height: 50%;
+    margin-left: 38.45%;
+    margin-top: 11px;
+    background-color: #87878a;
+}
+
+
+#loginbutton
+{
+    width: 20%;
+    height: 25%;
+    margin-left: 76.5%;
+    margin-top: -82px;
+    font-size: 35px;
+    text-align: center;
+    float: left;
+}
+
+
+#loginbuttonline
+{
+    width: 20%;
+    height: 2%;
+    margin-left: 16%;
+    margin-top: 11%;
+    font-size: 35px;
+    background-color: yellow;
+    text-align: center;
+    float: left;
+}
+
+.loginrow
+{
+    width: 100%;
+    height: 25%;
+    border-bottom: solid#79797d;
+    background-color: #87878a;
+}
+
+
+.loginkey
+{
+    width: 32.3%;
+    height : 100%;
+    color: white;
+    text-align: center;
+    float: left;
+    font-size: 20;
+    border-right: solid#79797d;
+}
+
+#loginlang
+{
+    margin-left: 91%;
+    margin-top: -34%;
+}
+
+#dotkey
+{
+    background-color: 525254;
+}
+
+#cancelkey
+{
+     background-color: 525254;   
+}
+
+.language
+{
+    width: 7%;
+    height: 50%;
+    float: left;
+    margin-left: 28%;
+    margin-top: -9%;
+}
+
+#languagedrop
+{
+    color: red;
+    width: 100%;
+    font-size: 20px;
+    font-family: "BebasNeue";
+}
+
+#languageselect
+{
+    display: none;
+    width: 52%;
+    margin-top: -21%;
+    height: 75%;
+    margin-left: 13%;
+}
+
+.languageoption
+{
+    width: 98%;
+    height: 19%;
+    border: solid #212121;
+}
+
+#languageline
+{
+    width: 126%;
+    height: 9px;
+    margin-top: 13%;
+    margin-left: -5%;
+    background-color: red;
+}
+
+
+#keyboardarea
+{
+    width: 60%;
+    height: 62%;
+    float: left;
+    background-color: #303030;
+    margin-left: 20%;
+    margin-top: 1%;}
+
+.keyboardrow
+{
+    width: 100%;
+    height : 14%;
+    background-color: grey;
+}
+
+#entryrow
+{
+    margin-bottom: 5px;
+    float: left;
+    background-color: white;
+}
+
+
+#keyboardlang
+{
+    margin-left: 10%;
+    margin-top: 0%;
+}
+
+.keyboardkey
+{
+    background-color: white;
+    color: black;
+}
+
+#spacekey
+{
+    width : 40%;
+    height: 100%;
+    margin-left : 30%;
+}
+
+/*terms and conditions page*/
+
+#termsContentBox{
+    background-color: black;
+    width: 45%;
+    height: 71%;
+    margin-left: 28%;
+    margin-top: 3%;
+}
+
+#termsContentBox P{
+       margin-left: 2%;
+    font-size: 22px;
+    margin-top: 0%;
 }
