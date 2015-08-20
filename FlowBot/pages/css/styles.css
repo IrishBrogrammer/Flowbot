@@ -644,8 +644,17 @@ body{
 }
 
 #drink-bubble{
-    height:2px;
-    width:2px;
-    border-radius:90%;
-    background-color:black;
+       height: 14px;
+    width: 14px;
+    border-radius: 100%;
+    background-color: black;
+    margin-top: -104%;
+    margin-left: 73%;
+}
+
+#drink-straw{
+    background-color:yellow;
+    height:20px;
+    width:5px;
+    
 }
