@@ -1407,33 +1407,37 @@ body{
 }
 
 /*terms and conditions page*/
-
-#termsContentBox{
-        background-color: black;
+#termsContentBox {
+    background-color: black;
     width: 45%;
-    height: 66%;
-    margin-left: 28%;
+    height: 44%;
+    margin-left: 27%;
     margin-top: 2%;
     padding-top: 1%;
+    position: absolute;
 }
 
-#termsContentBox P{
-     margin-left: 2%;
+#terms-upper-line {
+    height: 2%;
+    width: 45%;
+    margin-left: 27%;
+    /* float: left; */
+    background-color: #EAB248;
+    position: absolute;
+    margin-top: 1%;
+}
+
+#termsContentBox P {
+    margin-left: 2%;
     font-size: 20px;
     margin-top: 0%;
     margin-bottom: 4%;
 }
 
-#termsPageTitle{
+#termsPageTitle {
     font-size: 50px;
     margin-left: 31%;
     margin-top: -2%;
 }
 
-#terms-upper-line{
-    height:5%;
-    width:45%;
-    margin-left:28%;
-    float:left;
-    background-color:#EAB248;
-}
+
