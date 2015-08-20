@@ -147,7 +147,7 @@ body{
     margin-left: 40%;
     margin-top: 1.5%;
     font-size: 35px;
-    background-color: ##EAB248;
+    background-color: #EAB248;
     text-align: center;
 }
 
@@ -583,7 +583,7 @@ body{
     float: left;
     margin-left: 16%;
     margin-top: 0.5%;
-    background-color: yellow;
+    background-color: #EAB248;
 }
 
 #instructionsBox1TopLine{
@@ -789,7 +789,7 @@ body{
 
 #introbody
 {
-    background-color: ##F75858;
+    background-color: #F75858;
 }
 
 
@@ -1042,7 +1042,7 @@ body{
     font-size: 35px;
     text-align: center;
     float: left;
-    background-color: ##93C34F;
+    background-color: #93C34F;
 }
 
 #pourbutton
@@ -1096,7 +1096,6 @@ body{
     height: 88%;
     float: left;
 }
-
 
 #measurerline
 {
