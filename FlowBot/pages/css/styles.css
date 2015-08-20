@@ -1445,12 +1445,13 @@ body{
     margin-top: -2%;
 }
 
-.termsPagePints{
-    height:200px;
-    width:200px;
-    background-color:red;
-    float:left;
+.termsPagePints {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    float: left;
     margin-left: 2%;
+    margin-bottom: 2%;
 }
 
 /*pint measurer on pour page*/
