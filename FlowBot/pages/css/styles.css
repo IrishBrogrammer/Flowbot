@@ -83,7 +83,7 @@ body{
 }
 
 #locktitle
-{    margin-left: 39%;
+{    margin-left: 36%;
     margin-top: -5%;
 }
 
@@ -97,6 +97,11 @@ body{
 {
 	margin-left: 35%;
     margin-top: -6.5%;
+}
+
+#receipttitle
+{
+    margin-left: -8%;
 }
 
 #receipttitle h1
@@ -142,7 +147,7 @@ body{
     margin-left: 40%;
     margin-top: 1.5%;
     font-size: 35px;
-    background-color: yellow;
+    background-color: ##EAB248;
     text-align: center;
 }
 
@@ -152,7 +157,7 @@ body{
     margin-left: 40%;
     margin-top: 11%;
     font-size: 35px;
-    background-color: red;
+    background-color: #F75858;
     text-align: center;
     float: left;
 }
@@ -587,7 +592,7 @@ body{
     float: left;
     margin-left: 1%;
     margin-bottom: 1%;
-    background-color:yellow;
+    background-color:#EAB248;
 }
 
 #instructionsBox2TopLine{
@@ -596,7 +601,7 @@ body{
     float: left;
     margin-left: 1%;
     margin-bottom: 1%;
-    background-color:green;
+    background-color:#93C34F;
 }
 
 #instructionsBox3TopLine{
@@ -605,7 +610,7 @@ body{
     float: left;
     margin-left: 1%;
     margin-bottom: 1%;
-    background-color:red;
+    background-color:#F75858;
 }
 
 #toplinesContainer{
@@ -650,7 +655,7 @@ body{
 {
     width: 13%;
     height: 2%;
-    background-color: green;
+    background-color: #93C34F;
     margin-top: 14%;
     margin-left: -34%;
     float: left;
@@ -659,7 +664,7 @@ body{
 #credit-card{
     height: 40%;
     width: 40%;
-    background-color: yellow;
+    background-color: #EAB248;
     margin-left: 28%;
     margin-top: -5%;
 
@@ -689,7 +694,7 @@ body{
    position: absolute;
     width: 13px;
     height: 93px;
-    background-color: yellow;
+    background-color: #EAB248;
     left: 52px;
     top: -88px;
 }
@@ -698,13 +703,13 @@ body{
     position: absolute;
     width: 41px;
     height: 11px;
-    background-color: yellow;
+    background-color: #EAB248;
     left: 23px;
     top: -6px;
 }
 
 #drink{
-    border-top: 80px solid yellow;
+    border-top: 80px solid #EAB248;
     border-left: 30px solid transparent;
     border-right: 27px solid transparent;
     margin-left: 28%;
@@ -723,17 +728,13 @@ body{
 }
 
 #drink-straw{
-    background-color: yellow;
+    background-color: #EAB248;
     height: 30px;
     width: 8px;
-    /* position: absolute; */
     margin-top: -174%;
     transform: rotate(-25deg);
     margin-left: -6%;
-
 }
-
-
 
 #receiptbuttons
 {
@@ -750,7 +751,7 @@ body{
     margin-left: 19%;
     margin-top: -1%;
     font-size: 35px;
-    background-color: green;
+    background-color: #93C34F;
     text-align: center;
     float: left;
 }
@@ -761,10 +762,19 @@ body{
     width: 30%;
     height: 80%;
     margin-left: 19%;
-    font-size: 35px;
+    font-size: 60px;
     text-align: center;
     float: left;
 }
+
+#confirmreceiptbutton p
+{
+    width: 80%;
+    height: 40%;
+    margin-top: 11%;
+    margin-left: 9%;
+}
+
 
 #declinereceiptline
 {
@@ -772,14 +782,14 @@ body{
     margin-left: 51%;
     margin-top: -1%;
     font-size: 35px;
-    background-color: red;
+    background-color:  #F75858;
     text-align: center;
     float: left;
 }
 
 #introbody
 {
-    background-color: #ff7070;
+    background-color: ##F75858;
 }
 
 
@@ -796,15 +806,27 @@ body{
 }
 
 
+
 #declinereceiptbutton
 {
     width: 30%;
     height: 80%;
-    font-size: 35px;
+    font-size: 60px;
     margin-left: 2%;
     text-align: center;
     float: left;
 }
+
+
+
+#declinereceiptbutton p
+{
+    width: 80%;
+    height: 40%;
+    margin-top: 11%;
+    margin-left: 9%;
+}
+
 
 #unlockbuttonline {
     width: 20%;
@@ -812,7 +834,7 @@ body{
     margin-left: 78%;
     margin-top: 11%;
     font-size: 35px;
-    background-color: yellow;
+    background-color: #EAB248;
     text-align: center;
     float: left;
 }
@@ -840,7 +862,7 @@ body{
     margin-left: 43%;
     margin-top: 2%;
     font-size: 35px;
-    background-color: green;
+    background-color: #93C34F;
     text-align: center;
     float: left;
 }
@@ -858,7 +880,7 @@ body{
 
 #amounttransactionline
 {
-    background-color: red;
+    background-color:  #F75858;
     width: 20%;
     margin-left: 41%;
     margin-top: 7%;
@@ -898,7 +920,7 @@ body{
 
 #introglass
 {
-    border-top: 400px solid #ffea70;
+    border-top: 400px solid #EAB248;
     border-left: 60px solid transparent;
     border-right: 60px solid transparent;
     margin-left: 37%;
@@ -926,7 +948,7 @@ body{
     font-size: 35px;
     text-align: center;
     float: left;
-    background-color: a3cc60;
+    background-color: #93C34F;
 }
 
 #introbutton
@@ -984,7 +1006,7 @@ body{
 
 #pourglass
 {
-    border-top: 400px solid #ffea70;
+    border-top: 400px solid #EAB248;
     border-left: 60px solid transparent;
     border-right: 60px solid transparent;
     margin-left: 0%;
@@ -1020,7 +1042,7 @@ body{
     font-size: 35px;
     text-align: center;
     float: left;
-    background-color: #a3cc60;
+    background-color: ##93C34F;
 }
 
 #pourbutton
@@ -1068,7 +1090,7 @@ body{
 }
 }
 
-#measurer
+#pintmeasurer
 {
         width: 40%;
     height: 88%;
@@ -1129,7 +1151,7 @@ body{
     font-size: 30px;
     margin-left: 67%;
     margin-top: -71%;
-    color: #ffea70;
+    color: #EAB248;
     font-family: BebasNeue;
 }
 
@@ -1216,7 +1238,7 @@ body{
     margin-left: 16%;
     margin-top: 11%;
     font-size: 35px;
-    background-color: yellow;
+    background-color: #EAB248;
     text-align: center;
     float: left;
 }
