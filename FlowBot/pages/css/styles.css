@@ -58,8 +58,8 @@ body{
 
 #thankstitle
 {
-	margin-left: 13%;
-    margin-top: -6.5%;
+	margin-left: 27%;
+    margin-top: 0%;
 }
 
 #thankstext
@@ -262,6 +262,12 @@ body{
     margin-top: -28px;
     font-size: 35px;
     text-align: center;
+}
+
+#nextcustomerbutton p
+{
+    width: 100%;
+    height : 25%;
 }
 
 #lockbutton
