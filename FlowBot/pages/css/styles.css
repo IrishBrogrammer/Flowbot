@@ -71,8 +71,8 @@ body{
 
 
 #locktitle
-{    margin-left: 36%;
-    margin-top: -5%;
+{    margin-left: 43.50px%;
+    margin-top: 0%;
 }
 
 #optionstitle
@@ -130,7 +130,7 @@ body{
 #lockbuttonline
 {    width: 20%;
     height: 2%;
-    margin-left: 40%;
+    margin-left: 41%;
     margin-top: 11%;
     font-size: 35px;
     background-color: #F75858;
@@ -261,7 +261,7 @@ body{
 {
 	width: 20%;
     height: 25%;
-    margin-left: 40%;
+    margin-left: 41%;
     margin-top: 6px;
     font-size: 35px;
     text-align: center;
@@ -1299,7 +1299,7 @@ body{
 .language
 {
     position: absolute;
-    margin-left: 80%;
+    margin-left: 90%;
     margin-top: 0%;
 }
 
