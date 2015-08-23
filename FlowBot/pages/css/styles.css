@@ -472,11 +472,12 @@ body{
     text-align: center;
     margin-left: 27%;
     margin-top: -2%;
+    font-family: "dinregular";
 }
 
 #contactlessImage
 {
-    margin-left: 25%;
+    margin-left: 32f%;
     margin-top: 20%;
 }
 
@@ -485,7 +486,7 @@ body{
     width:400px;
     background-color:black;
     float:left;
-    margin-left: 24%;
+    margin-left: 19.5%;
     margin-top: 7%;
 }
 
@@ -500,7 +501,7 @@ body{
 
 #cardHeader{
     float:left;
-    margin-left: 35%;
+    margin-left: 32%;
 }
 
 #contactHeader{
@@ -525,7 +526,7 @@ body{
     width: 43%;
     background-color: #EDD74A;
     text-align: auto;
-    margin-left: 26%;
+    margin-left: 28%;
     margin-top: 23%;
 }
 
@@ -1741,7 +1742,7 @@ margin-left: 92px;
 
 .righttintcutoff {
         border-bottom: 30px solid #EAB248;
-    border-right: 150px solid transparent;
+    border-right: 142px solid transparent;
     margin-top: -30%;
     margin-left: -65%;
     height: 0;
