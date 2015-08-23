@@ -1725,24 +1725,54 @@ margin-left: 92px;
 
 .righttint
 {
-    height: 25%;
-    width: 25%;
+    float: left;
+    margin-top: -189%;
+    margin-left: 51%;
 }
 
 .righttintbody{
     border-left: 50px solid transparent;
     border-right: 20px solid transparent;
-    border-top : 75px solid black;
+    border-top: 75px solid;
     height: 00;
-    width: 100px;
-    background-color : white;
+    width: 73px;
    
 }
 
 .righttintcutoff {
-    border-bottom: 30px solid white;
+        border-bottom: 30px solid #EAB248;
+    border-right: 150px solid transparent;
+    margin-top: -30%;
+    margin-left: -65%;
+    height: 0;
+    width: 0;
+    position: relative;
+}
+
+
+
+
+.lefttint
+{
+    float: left;
+    margin-top: -189%;
+    margin-left: 71%;
+}
+
+.lefttintbody{
+    border-left: 1px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom : 50px solid black;
+    height: 00;
+    width: 70px;
+    background-color : white;
+   
+}
+
+.lefttintcutoff {
+     border-bottom: 25px solid white;
     border-right: 175px solid transparent;
-    margin-top : -5%;
+    margin-top : -4%;
     height: 0;
     width: 0;
     position : relative;
