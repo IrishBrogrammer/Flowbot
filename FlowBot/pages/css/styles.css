@@ -367,7 +367,6 @@ body{
 
 #refundPageTitle {
     margin-left: 38%;
-    font-size: 69px;
     margin-top: -8%;
     
 }
@@ -425,7 +424,7 @@ body{
 #confirmRefundButtonLine
 {
     width: 11%;
-    background-color: red;
+    background-color:  #F75858;
     margin-top: 5.5%;
     margin-left: -22%;
     float: left;
