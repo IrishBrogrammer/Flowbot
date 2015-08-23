@@ -1721,3 +1721,29 @@ margin-left: 92px;
 #OptLine6 {
     margin-left: 22px;
 }
+
+
+.righttint
+{
+    height: 25%;
+    width: 25%;
+}
+
+.righttintbody{
+    border-left: 50px solid transparent;
+    border-right: 20px solid transparent;
+    border-top : 75px solid black;
+    height: 00;
+    width: 100px;
+    background-color : white;
+   
+}
+
+.righttinycutoff {
+    border-bottom: 30px solid white;
+    border-right: 175px solid transparent;
+    margin-top : -5%;
+    height: 0;
+    width: 0;
+    position : relative;
+}
