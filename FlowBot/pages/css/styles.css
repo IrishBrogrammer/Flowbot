@@ -1574,6 +1574,11 @@ body{
   height:10px;
   background-color:black;
   float:left;
+  margin-left: -1%;
+}
+
+#backSpaceKey{
+    background-color:afb1b3;
 }
 
 .numberkeyboardkey p {
