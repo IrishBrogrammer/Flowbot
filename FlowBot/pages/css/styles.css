@@ -1770,10 +1770,12 @@ margin-left: 92px;
 }
 
 .lefttintcutoff {
-     border-bottom: 25px solid white;
-    border-right: 175px solid transparent;
-    margin-top : -4%;
+    border-bottom: 25px solid #EAB248;
+    border-right: 153px solid transparent;
+    margin-top: 42%;
+    margin-left: -2%;
     height: 0;
+    float: left;
     width: 0;
-    position : relative;
+    position: relative;
 }
