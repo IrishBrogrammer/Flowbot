@@ -1555,6 +1555,21 @@ body{
     background-color: white
 }
 
+#arrow-right {
+    width: 0; 
+    height: 0; 
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-right: 8px solid black;
+    float:left;
+}
+#box{
+  width:10px;
+  height:10px;
+  background-color:black;
+  float:left;
+}
+
 .numberkeyboardkey p {
     margin-top: 2%;
 }
