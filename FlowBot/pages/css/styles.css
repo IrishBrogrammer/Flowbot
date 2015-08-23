@@ -1555,6 +1555,12 @@ body{
     background-color: white
 }
 
+#backspace {
+    float: left;
+    margin-left: 34%;
+    margin-top: 22%;
+}
+
 #arrow-right {
     width: 0; 
     height: 0; 
