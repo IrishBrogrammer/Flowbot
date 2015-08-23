@@ -1555,6 +1555,16 @@ body{
     background-color: white
 }
 
+.numberkeyboardkey{
+    color: red;
+    width: 8%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    margin-left: 1%;
+    background-color: white;
+}
+
 #akey
 {
     margin-left : 4.6%;
