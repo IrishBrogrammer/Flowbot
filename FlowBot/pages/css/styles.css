@@ -1555,8 +1555,12 @@ body{
     background-color: white
 }
 
+.numberkeyboardkey p {
+    margin-top: 2%;
+}
+
 .numberkeyboardkey{
-    color: red;
+    color: black;
     width: 8%;
     height: 100%;
     float: left;
