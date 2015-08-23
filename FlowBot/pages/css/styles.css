@@ -95,18 +95,19 @@ body{
     margin-left: -8%;
 }
 
-#receipttitle h1
+#receipttitle h2
 {
 	font-size: 50px;
     margin-left: 36%;
     margin-top: 1%;
 }
 
-#receipttitle h2
+#receipttitle p
 {
 	font-size: 30px;
     margin-left: 30%;
     margin-top: -2%;
+    font-family: "DinRegular";
 }
 
 
