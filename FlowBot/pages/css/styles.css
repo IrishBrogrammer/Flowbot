@@ -190,6 +190,11 @@ body{
 }
 
 
+
+#freedispensebutton p
+{
+    width : 80%;
+}
 #optionsbar
 {
     height: 21%;
