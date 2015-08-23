@@ -20,6 +20,12 @@ body{
 	src: url("airship.ttf") format("truetype");
 }
 
+@font-face
+{
+    font-family: 'DinRegular';
+    src: url("dinregular.ttf") format("truetype");
+}
+
 
 .PageTitle
 {
@@ -64,9 +70,10 @@ body{
 
 #thankstext
 {
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     margin-top: 10%;
+    font-family: "DinRegular";
 }
 
 
