@@ -74,6 +74,8 @@ body{
     text-align: center;
     margin-top: 10%;
     font-family: "DinRegular";
+    float: left;
+    margin-left: 25%;
 }
 
 
@@ -128,10 +130,11 @@ body{
 	width: 20%;
     height: 2%;
     margin-left: 40%;
-    margin-top: 1.5%;
+    margin-top: 2.5%;
     font-size: 35px;
     background-color: #EAB248;
     text-align: center;
+    float: left;
 }
 
 #lockbuttonline
@@ -266,7 +269,8 @@ body{
 	width: 20%;
     height: 15%;
     margin-left: 40%;
-    margin-top: -28px;
+    float: left;
+    margin-top: 0.5%;
     font-size: 35px;
     text-align: center;
 }
@@ -277,6 +281,7 @@ body{
     height: 25%;
     margin-top: 6%;
     float: left;
+    font-family: "BebasNeue";
 }
 
 #lockbutton
