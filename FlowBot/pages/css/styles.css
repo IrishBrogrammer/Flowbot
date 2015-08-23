@@ -466,11 +466,11 @@ body{
 
 #PaymentPageTitle p
 {
-    font-size: 24px;
-    width: 65%;
+    font-size: 18px;
+    width: 54%;
     text-align: center;
-    margin-left: 22%;
-    margin-top: -2%;
+    margin-left: 24%;
+    margin-top: -4%;
     font-family: "dinregular";
 }
 
@@ -500,7 +500,7 @@ body{
 
 #cardHeader{
     float:left;
-    margin-left: 31.5%;
+    margin-left: 32%;
 }
 
 #contactHeader{
