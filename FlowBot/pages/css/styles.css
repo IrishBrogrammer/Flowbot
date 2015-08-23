@@ -25,28 +25,23 @@ body{
 {
 	font-family: "BebasNeue";
 	color: white;
-	font-size: 70;
+	font-size: 47px;
 }
 	
 #errortitle
 {
-	margin-left: 35%;
-    margin-top: -6.5%;	
+    margin-left: 40%;
+    margin-top: -0.5%;
 }
 
 #errortext
 {
 	font-size: 60px;
     font-family: BebasNeue;
-    margin-left: 35%;
+    margin-left: 36.25%;
     margin-top: 14%;
 }
 
-#errorlang
-{
-    margin-left: 91%;
-    margin-top: -21%;
-}
 
 #assistancetitle
 {
@@ -61,13 +56,6 @@ body{
     font-size: 25px;
 }
 
-#assistlang
-{
-    margin-left: 92%;
-    margin-top: -21%;
-}
-
-
 #thankstitle
 {
 	margin-left: 13%;
@@ -81,21 +69,10 @@ body{
     margin-top: 10%;
 }
 
-#thanklang
-{
-    margin-left: 90%;
-    margin-top: -23%;
-}
 
 #locktitle
 {    margin-left: 36%;
     margin-top: -5%;
-}
-
-#locktaplang
-{
-    margin-left: 91%;
-    margin-top: -33%;
 }
 
 #optionstitle
@@ -122,12 +99,6 @@ body{
     margin-left: 30%;
     margin-top: -2%;
 }
-
-#receiptlang
-{    margin-left: 91%;
-    margin-top: -26%;
-}
-
 
 
 /* Line that appears above or below each button */
@@ -247,25 +218,11 @@ body{
     margin-top: 14%;
 }
 
-#optionlang
-{
-    margin-left: 92%;
-    margin-top: -36%;
-}
-
 #mantracbutton p
 {
 	margin-left: 0%;
     margin-top: 2%;
 }
-
-#mantraclang
-{
-    margin-left: 33%;
-    margin-top: -19%;
-}
-
-
 
 #tncbutton
 {
@@ -351,12 +308,6 @@ body{
 #confirmPageMinimum h3 {
     color: #EAB248;
     font-family:'airship';
-}
-
-#confirmlang
-{
-    margin-left: 89%;
-    margin-top: -34%;
 }
 
 .minMaxBar {
@@ -480,12 +431,6 @@ body{
     float: left;
 }
 
-#refundlang
-{
-    margin-left: 85%;
-    margin-top: -36%;
-}
-
 /*Payment Page*/
 #PaymentPageTitle h2 
 {
@@ -501,12 +446,6 @@ body{
     text-align: center;
     margin-left: 27%;
     margin-top: -2%;
-}
-
-#paymentlang
-{
-    margin-left: 14%;
-    margin-top: -28%;
 }
 
 #contactlessImage
@@ -795,11 +734,6 @@ body{
     margin-left: -6%;
 }
 
-#instructlang
-{
-    margin-left: 15%;
-    margin-top: -16%;
-}
 #receiptbuttons
 {
     width: 80%;
@@ -1147,12 +1081,6 @@ body{
     float: left;
 }
 
-#pourlang
-{
-    margin-left: 88%;
-    margin-top: -34%;
-}
-}
 
 #pintmeasurer
 {
@@ -1326,11 +1254,6 @@ body{
     border-right: solid#79797d;
 }
 
-#loginlang
-{
-    margin-left: 91%;
-    margin-top: -34%;
-}
 
 #dotkey
 {
@@ -1375,11 +1298,9 @@ body{
 
 .language
 {
-    width: 7%;
-    height: 50%;
-    float: left;
-    margin-left: 28%;
-    margin-top: -9%;
+    position: absolute;
+    margin-left: 91%;
+    margin-top: -21%;
 }
 
 #languagedrop
@@ -1399,12 +1320,6 @@ body{
     margin-left: 13%;
 }
 
-#termlang
-{
-    float: left;
-    margin-left: 88%;
-    margin-top: -27%
-}
 
 .languageoption
 {
@@ -1491,13 +1406,6 @@ body{
     background-color: white;
 }
 
-
-#keyboardlang
-{
-     margin-left: 30%;
-    margin-top: -30%;
-
-}
 
 #keyboardsubmitline
 {
