@@ -308,18 +308,19 @@ body{
 
 
 /*Confirm page*/
-#confirmPageTitle h1 {
+#confirmPageTitle h2 {
     font-size: 81%;
     text-align: center;
     margin-top: 1%;
 }
 
-#confirmPageTitle h2 {
+#confirmPageTitle p {
     font-size: 34%;
     margin-left: 30%;
     width: 49%;
     text-align: center;
     margin-top: -2.5%;
+    font-family: "dinregular";
 }
 #confirmPageMinimum{
    float: left;
