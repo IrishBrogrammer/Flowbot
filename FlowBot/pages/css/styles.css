@@ -196,10 +196,32 @@ body{
 	height : 100%;
 	width: 24.5%;
 	font-family: "BebasNeue";
-	font-size :    49px;
+	font-size :   45px;
 }
 
 
+#staffbutton p 
+{
+    margin-top: 8%;
+}
+
+#tncbutton p
+{
+    margin-top: 1%;
+    width: 66%;
+    margin-left: 18%;
+}
+
+#instructionsbutton p
+{
+    margin-top: 8%;
+
+}
+
+#assistbutton p
+{
+    margin-top: 1%;
+}
 
 #freedispensebutton p
 {
@@ -652,7 +674,7 @@ body{
     width: 40%;
     background-color: #EAB248;
     margin-left: 28%;
-    margin-top: -4%;
+    margin-top: 10%;
 
 }
 
@@ -673,7 +695,7 @@ body{
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
     margin-left: 16%;
-    margin-top: 9%;
+    margin-top: 12%;
 }
 
 .checkmark_stem {
@@ -699,7 +721,7 @@ body{
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
     margin-left: 32%;
-    margin-top: -10%;
+    margin-top: -6%;
     float: left;
     width: 61px;
 }
