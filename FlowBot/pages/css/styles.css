@@ -1209,6 +1209,24 @@ body{
     margin-top: -6%;
 }
 
+#loginBackspace{
+
+}
+#login-arrow-right {
+    width: 0; 
+    height: 0; 
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-right: 8px solid black;
+    float:left;
+}
+#login-box{
+  width:10px;
+  height:10px;
+  background-color:black;
+  float:left;
+  margin-left: -1%;
+}
 #staffcard
 {
     float: left;
