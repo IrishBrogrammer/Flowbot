@@ -92,7 +92,7 @@ body{
 
 #receipttitle
 {
-    margin-left: -8%;
+    margin-left: -11%;
 }
 
 #receipttitle h2
@@ -1428,7 +1428,6 @@ body{
 
 #keyboardtitle
 {
-    font-size: 30px;
     margin-left: 7%;
 }
 
@@ -1436,17 +1435,19 @@ body{
 #keyboardtitle h2
 {
     height: 10%;
-    width: 60%;
-    margin-left: 24%;
-    margin-top: 2%;
+    width: 63%;
+    margin-left: 17%;
+    margin-top: 3%;
 }
 
 #keyboardtitle p
 {
     height: 10%;
-    width: 60%;
+    width: 71%;
     margin-left: 18%;
+    font-size: 18px;
     margin-top: 4%;
+    font-family: DinRegular;
 }
 
 
@@ -1474,7 +1475,7 @@ body{
   float: left;
     width: 60%;
     background-color: #EAB248;
-    height: 5px;
+    height: 12px;
     margin-left: 20%;
     margin-top: 2%;
 }
