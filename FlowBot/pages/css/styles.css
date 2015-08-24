@@ -705,49 +705,18 @@ body{
 }
 
 .drink-bubble{
-     height: 19px;
-    width: 17px;
+    height: 10px;
+    width: 10px;
     border-radius: 100%;
     background-color: black;
-    margin-top: 17%;
-    margin-left: 73%;
-}
 
 #drinkbubbleone
 {
-    margin-top: -118%;
+        margin-top: -46%;
     float: left;
-    margin-left: 8%;
+    margin-left: 38%;
 }
 
-#drinkbubbletwo
-{
-    margin-top: -95%;
-    float: left;
-    margin-left: 60%;
-    height: 15px;
-    width: 15px;
-}
-
-#drinkbubblethree
-{
-    margin-top: -50%;
-    float: left;
-    margin-left: 31%;
-    height: 10px;
-    width: 10px;
-}
-
-
-
-#drink-straw{
-    background-color: #EAB248;
-    height: 30px;
-    width: 8px;
-    margin-top: -174%;
-    transform: rotate(-25deg);
-    margin-left: -6%;
-}
 
 #receiptbuttons
 {
@@ -1985,5 +1954,38 @@ margin-left: 92px;
     width: 0;
     position: relative;
 }
+
+.drinktop
+{
+        border-top: 41px solid black;
+    border-left: 5px solid transparent;
+    border-right: 60px solid transparent;
+    width: 83px;
+    float: left;
+    margin-top: -150%;
+    margin-left: -25%;
 }
 
+.drinkpour
+{
+    width: 10px;
+    float: left;
+    height: 51px;
+    -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    -o-transform: skew(20deg);
+    background: #EAB248;
+    margin-top: -63%;
+    margin-left: 25%;
+}
+
+.drinkfill
+{
+    border-bottom: solid 22px #EAB248;
+    border-right: 83px solid transparent;
+    margin-top: -21%;
+    margin-left: 2%;
+    -ms-transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    transform: rotate(-8deg);    
+}
