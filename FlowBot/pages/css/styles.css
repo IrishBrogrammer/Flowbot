@@ -1646,7 +1646,7 @@ body{
 #termsContentBox {
     background-color: black;
     width: 69%;
-    height: 44%;
+    height: 54%;
     margin-left: 15%;
     margin-top: 2%;
     padding-top: 1%;
@@ -1655,8 +1655,8 @@ body{
 
 #terms-upper-line {
     height: 2%;
-    width: 45%;
-    margin-left: 27%;
+    width: 69%;
+    margin-left: 15%;
     /* float: left; */
     background-color: #EAB248;
     position: absolute;
@@ -1665,7 +1665,7 @@ body{
 
 #termsContentBox P {
     margin-left: 2%;
-    font-size: 20px;
+    font-size: 34px;
     margin-top: 0%;
     margin-bottom: 0%;
 }
