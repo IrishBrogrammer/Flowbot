@@ -1809,3 +1809,17 @@ margin-left: 92px;
     width: 0;
     position: relative;
 }
+
+.pourfiller
+{
+    border-top: 63px solid #EAB248;
+    border-left: 11px solid transparent;
+    border-right: -6px solid transparent;
+    background-color: transparent;
+    width: 0;
+    height: 0;    
+    float: left;
+    position: relative;
+     margin-left: -9px;
+}
+
