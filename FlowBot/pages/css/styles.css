@@ -1062,6 +1062,11 @@ body{
     width: 200px;
 }
 
+#pourglass .bubble
+{
+    background-color: #212121;
+}
+
 #pourtitle h2
 {
         font-size: 65px;
