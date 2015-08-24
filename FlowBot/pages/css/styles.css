@@ -1939,7 +1939,7 @@ margin-left: 92px;
 {
     border-left: 1px solid transparent;
     border-right: 20px solid transparent;
-    border-bottom: 20px solid black;
+    border-bottom: 20px solid #303030;
     height: 00;
     width: 28px;
     background-color: transparent;
@@ -1947,10 +1947,10 @@ margin-left: 92px;
 
 .termlefttintcutoff
 {
-    border-bottom: 8px solid grey;
-    border-right: 53px solid transparent;
+        border-bottom: 10px solid grey;
+    border-right: 59px solid transparent;
     margin-top: 43%;
-    margin-left: -2%;
+    margin-left: -6%;
     height: 0;
     float: left;
     width: 0;
@@ -1958,18 +1958,31 @@ margin-left: 92px;
 }
 
 
-
-
 .termrighttint
 {
+        float: left;
+    margin-top: -166%;
+    margin-left: 56%;
 }
 
 .termrighttintbody
 {
-   
+        border-left: 13px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 26px solid#303030;
+    height: 00;
+    width: 26px;
 }
 
 .termrighttintcutoff
 {
+    border-bottom: 12px solid grey;
+    border-right: 34px solid transparent;
+    margin-top: -43%;
+    margin-left: -36%;
+    height: 0;
+    width: 0;
+    position: relative;
+}
 }
 
