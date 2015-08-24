@@ -1772,12 +1772,15 @@ margin-left: 92px;
 
 .pourtop
 {
-    border-left: 1px solid transparent;
-    border-right: 35px solid transparent;
-    border-bottom: 50px solid white;
+    border-left: 10px solid transparent;
+    border-right: 13px solid transparent;
+    border-top: 86px solid#212121;
     height: 00;
-    width: 70px;
-    background-color: #EAB248; 
+    width: 297px;
+    background-color: #303030;
+    margin-top: -200%;
+    float: left;
+    margin-left: -30%; 
 }
 
 
