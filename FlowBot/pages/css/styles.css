@@ -325,7 +325,7 @@ body{
 #confirmPageMinimum{
    float: left;
     text-align: center;
-    margin-left: 37%;
+    margin-left: 36.5%;
     margin-top: 10%;
 }
 
@@ -1768,3 +1768,28 @@ margin-left: 92px;
     width: 0;
     position: relative;
 }
+
+
+.pourtop
+{
+    border-left: 1px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 50px solid white;
+    height: 00;
+    width: 70px;
+    background-color: #EAB248; 
+}
+
+
+.pourcutoff
+{
+    border-bottom: 25px solid #EAB248;
+    border-right: 153px solid transparent;
+    margin-top: 42%;
+    margin-left: -2%;
+    height: 0;
+    float: left;
+    width: 0;
+    position: relative;
+}
+
