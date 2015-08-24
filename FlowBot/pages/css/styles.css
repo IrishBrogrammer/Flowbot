@@ -1926,3 +1926,50 @@ margin-left: 92px;
     margin-left: 40.5%;
     margin-top: 0%;
 }
+
+
+.termlefttint
+{
+        float: left;
+    margin-top: -168%;
+    margin-left: -9%;
+}
+
+.termlefttintbody
+{
+    border-left: 1px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid black;
+    height: 00;
+    width: 28px;
+    background-color: transparent;
+}
+
+.termlefttintcutoff
+{
+    border-bottom: 8px solid grey;
+    border-right: 53px solid transparent;
+    margin-top: 43%;
+    margin-left: -2%;
+    height: 0;
+    float: left;
+    width: 0;
+    position: relative;
+}
+
+
+
+
+.termrighttint
+{
+}
+
+.termrighttintbody
+{
+   
+}
+
+.termrighttintcutoff
+{
+}
+
