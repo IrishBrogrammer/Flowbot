@@ -1905,3 +1905,15 @@ margin-left: 92px;
     margin-left: 0.1%;
     
 }
+
+#login-box p {
+    margin-top: -12%;
+    font-size: 19px;
+    font-family: DinRegular;
+
+}
+
+#logintitle {
+    margin-left: 40.5%;
+    margin-top: 0%;
+}
