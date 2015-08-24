@@ -1785,3 +1785,27 @@ margin-left: 92px;
     width: 0;
     position: relative;
 }
+
+.pourtop
+{
+    border-left: 10px solid transparent;
+    border-right : 13px solid transparent;
+    border-top: 86px solid #212121;
+    width: 297px;
+    background-color: #303030;
+    margin-top: -200%;
+    float: left;
+    margin-left: -30%
+}
+
+.pourcutoff
+{
+    border-bottom: 25px solid #EAB248;
+    border-right: 153px solid transparent;
+    margin-top: 42%;
+    margin-left: -2%;
+    height: 0;
+    float: left;
+    width: 0;
+    position: relative;
+}
