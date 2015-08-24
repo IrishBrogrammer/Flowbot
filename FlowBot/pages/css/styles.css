@@ -308,10 +308,10 @@ body{
 
 
 /*Confirm page*/
-#confirmPageTitle h2 {
-    font-size: 81%;
+#confirmPageTitle h2 
+{
     text-align: center;
-    margin-top: 1%;
+    margin-top: 2.5%;
 }
 
 #confirmPageTitle p {
