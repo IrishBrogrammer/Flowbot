@@ -1209,23 +1209,31 @@ body{
     margin-top: -6%;
 }
 
-#loginBackspace{
-
+#loginBackspace {
+    margin-left: 31%;
+    margin-top: 23%;
 }
 #login-arrow-right {
-    width: 0; 
-    height: 0; 
-    border-top: 5px solid transparent;
-    border-bottom: 5px solid transparent;
-    border-right: 8px solid black;
-    float:left;
+    width: 0;
+    height: 0;
+    border-top: 9px solid transparent;
+    border-bottom: 9px solid transparent;
+    border-right: 12px solid white;
+    float: left;
+    border-radius: 23%;
 }
-#login-box{
-  width:10px;
-  height:10px;
-  background-color:black;
-  float:left;
-  margin-left: -1%;
+#login-box {
+    width: 21px;
+    height: 18px;
+    background-color: white;
+    float: left;
+    margin-left: -4%;
+    margin-top: 0%;
+    border-radius: 17%;
+}
+#login-box p{
+    text-align:center;
+    color:#434345;
 }
 #staffcard
 {
