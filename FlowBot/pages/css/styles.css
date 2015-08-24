@@ -1888,3 +1888,20 @@ margin-left: 92px;
 #loginbutton p {
     margin-top: 12%;
 }
+.darkloginkey {
+    background-color: #434345;
+    width: 31%;
+    border: solid #434345;
+    font-size: 70px;
+    height: 93%;
+    color: white;
+    text-align: center;
+    float: left;
+    margin-left: -0.1%;
+}
+
+#cancellogin {
+    width: 31.5%;
+    margin-left: 0.1%;
+    
+}
